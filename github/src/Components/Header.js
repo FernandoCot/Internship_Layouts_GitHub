@@ -5,23 +5,28 @@ class Header extends React.Component{
     render() {
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                {/*<Link to="/" className="navbar-brand">Home</Link>*/}
+                <Link to="/" className="navbar-brand">
+                    {/*<img src=""></img>*/}
+                </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav m-auto">
                         <li className="nav-item">
-                            <Link to="/" className="nav-link">Home</Link>
+                            <Link to="/" className="nav-link">Features</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/about" className="nav-link">Sobre Mim</Link>
+                            <Link to="/" className="nav-link">Business</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/tech" className="nav-link">Tecnologias</Link>
+                            <Link to="/" className="nav-link">Explore</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/projects" className="nav-link">Projetos</Link>
+                            <Link to="/" className="nav-link">Marketplace</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/" className="nav-link">Pricing</Link>
                         </li>
                     </ul>
                 </div>
