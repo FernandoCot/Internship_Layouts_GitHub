@@ -30,11 +30,14 @@ class Header extends React.Component{
                                 <Link to="/" className="nav-link">Pricing</Link>
                             </li>
                         </ul>
-                        <input className="navbar_search no_mobile" placeholder="Search GitHub"></input>
-                        <h5 class="no_mobile">
-                            <b className="font_white">Sign in</b>
-                            or 
-                            <b className="font_white">Sign up</b>
+                        <form className="no_mobile form_search" method="get" action="#">
+                            <label className="m-auto">
+                                <input className="navbar_search" placeholder="Search GitHub"></input>
+                                {/*<img className="" src="././img/search_hint.svg"></img>*/}
+                            </label>
+                        </form>
+                        <h5 class="font_white nav_logs">
+                            <b>Sign in</b><span className="font_gray"> or </span><b>Sign up</b>
                         </h5>
                     </div>
                 </div>

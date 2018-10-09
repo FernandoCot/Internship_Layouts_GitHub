@@ -3,10 +3,19 @@
 
 .App {
   text-align: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.row-cover{
+  max-width: 100vh;
 }
 
 .font_white{
-  font: #fff !important;
+  color: #fff;
+}
+
+.font_gray{
+  color: #586069 !important;
 }
 
 .txt-center{
@@ -49,6 +58,10 @@
   color: #fff !important;
 }
 
+.nav-item{
+  margin-left: 1.5rem;
+}
+
 .github_icon{
   color: #fff;
   font-size: 32px;
@@ -62,11 +75,33 @@
   background-color: #404448;
   border: 1px solid transparent;
   color: #6f848c;
+  border-radius: 4px;
+  width: 270px;
+  padding: 5px 7px;
+}
+
+.nav_logs{
+  font-size: 16px !important;
+  margin: auto 0 auto 16px;
 }
 
 .navbar{
   background-color: #24292e !important;
+  font-size: 16px !important;
 }
+
+.navbar-brand{
+  margin: auto;
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.form_search{
+  margin-left: 60px;
+}
+
 
 /* Header Classes Above */
 
@@ -86,6 +121,19 @@
       display: block !important;
     }
 
+    .nav-item{
+      margin-left: 0 !important;
+    }
+
+    .navbar-toggler{
+      right: 5%;
+      position: absolute;
+      background-color: #fff;
+    }
+
+    .nav_logs{
+      margin: auto !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
