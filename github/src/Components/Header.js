@@ -6,7 +6,7 @@ class Header extends React.Component{
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <Link to="/" className="navbar-brand">
-                    {/*<img src=""></img>*/}
+                    <i class="fab fa-github"></i>
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -29,6 +29,7 @@ class Header extends React.Component{
                             <Link to="/" className="nav-link">Pricing</Link>
                         </li>
                     </ul>
+                    <input placeholder="Search GitHub"></input>
                 </div>
             </nav>
         )

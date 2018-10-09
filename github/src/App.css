@@ -22,4 +22,9 @@
 
 .nav-link{
   outline: none !important;
+  color: #fff;
+}
+
+.navbar{
+  background-color: #24292e;
 }
