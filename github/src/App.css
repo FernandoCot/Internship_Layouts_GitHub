@@ -1,16 +1,36 @@
+
+/* General Classes Below */
+
 .App {
   text-align: center;
 }
+
+.font_white{
+  font: #fff !important;
+}
+
+.txt-center{
+	text-align: center !important;
+}
+
+.no_mobile{
+  display: block !important;
+}
+
+.only_mobile{
+  display: none !important;
+}
+
+
+/* General Classes Above */
+
+/* Footer Classes Below */
 
 .newfooter{
 	background-color: #ccc;
 	bottom: 0;
 	position: relative;
   width: 100%;
-}
-
-.txt-center{
-	text-align: center !important;
 }
 
 .tit-footer{
@@ -20,11 +40,56 @@
   padding-top: 10px;
 }
 
+/* Footer Classes Above */
+
+/* Header Classes Below */
+
 .nav-link{
   outline: none !important;
+  color: #fff !important;
+}
+
+.github_icon{
   color: #fff;
+  font-size: 32px;
+}
+
+.navbar_main_row{
+  margin: auto;
+}
+
+.navbar_search{
+  background-color: #404448;
+  border: 1px solid transparent;
+  color: #6f848c;
 }
 
 .navbar{
-  background-color: #24292e;
+  background-color: #24292e !important;
+}
+
+/* Header Classes Above */
+
+
+
+
+
+/* --------------- Responsive Rules Start Here! ----------------- */
+
+@media (max-width: 767px){
+
+    .no_mobile{
+      display: none !important;
+    }
+
+    .only_mobile{
+      display: block !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+
+
+
 }
