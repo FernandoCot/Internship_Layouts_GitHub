@@ -22,6 +22,19 @@
   overflow: hidden;
 }
 
+.btn_blue{
+  background-color: #1277eb;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  margin-top: 1rem;
+}
+
+.btn_blue:hover{
+  background-color: #0366d6;
+}
+
 .double_hexagons{
   position: absolute;
   bottom: -40px;
@@ -47,8 +60,12 @@
   font-size: 20px;
 }
 
-.font-size{
+.font25{
   font-size: 25px;
+}
+
+.font32{
+  font-size: 32px;
 }
 
 .pointer{
@@ -88,16 +105,16 @@
   border: 1px solid #d1d5da;
 }
 
+.padtop40{
+  padding-top: 40px;
+}
+
+.padbot40{
+  padding-bottom: 40px;
+}
+
 .font_white{
   color: #fff;
-}
-
-.border_light_gray{
-  border-bottom: 1px solid hsla(0,0%,100%,0.125);
-}
-
-.border_light_gray:hover{
-  border-color: #fff;
 }
 
 .font_gray{
@@ -106,6 +123,14 @@
 
 .font_light_gray{
   color: #6a737d !important;
+}
+
+.border_light_gray{
+  border-bottom: 1px solid hsla(0,0%,100%,0.125);
+}
+
+.border_light_gray:hover{
+  border-color: #fff;
 }
 
 .bg_universe_left{

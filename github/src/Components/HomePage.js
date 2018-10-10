@@ -1,6 +1,8 @@
 import React from 'react'
 import Welcome from './HomePage/Welcome';
 import Universe from './HomePage/Universe';
+import Enterprise from './HomePage/Enterprise';
+import Organizations from './HomePage/Organizations';
 
 
 class HomePage extends React.Component{
@@ -9,6 +11,8 @@ class HomePage extends React.Component{
             <div className="">
                 <Welcome />
                 <Universe />
+                <Enterprise />
+                <Organizations />
             </div>
         )
     };

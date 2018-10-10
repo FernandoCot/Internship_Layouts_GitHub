@@ -36,7 +36,7 @@ class Universe extends React.Component{
                                                 <h5 className="font16">
                                                     Through a combination of creativity, determination, and (a lot of) carefully crafted code, the future is being built every day. 
                                                 </h5>
-                                                <a href="https://githubuniverse.com/get-tickets/" className="font_light_blue">Learn more <i class="fas fa-arrow-right"></i></a>
+                                                <a href="https://github.com/buildingthefuture" className="font_light_blue">Learn more <i class="fas fa-arrow-right"></i></a>
                                             </div>
                                             <div className="col-2">
                                                 <img src={Double_Hexagons} alt="Double Hexagons" className="double_hexagons"></img>
