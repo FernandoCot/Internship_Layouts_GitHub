@@ -6,8 +6,10 @@ import Universe from './HomePage/Universe';
 class HomePage extends React.Component{
     render(){
         return(
-            <Welcome />,
-            <Universe />
+            <div className="">
+                <Welcome />
+                <Universe />
+            </div>
         )
     };
 }

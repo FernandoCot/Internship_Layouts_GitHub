@@ -38,7 +38,7 @@ class Header extends React.Component{
                             </label>
                         </form>
                         <h5 className="font_white nav_logs">
-                            <b>Sign in</b><span className="font_gray"> or </span><b>Sign up</b>
+                            <b className="pointer">Sign in</b><span className="font_gray"> or </span><b className="pointer">Sign up</b>
                         </h5>
                     </div>
                 </div>

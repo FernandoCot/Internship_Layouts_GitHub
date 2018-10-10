@@ -6,14 +6,32 @@
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
+.pad0{
+  padding: 0 !important;
+}
+
 .row-cover{
   padding: 60px 45px;
   display: flex !important;
   align-items: center;
 }
 
+.fluid-universe{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.font12{
+  font-size: 12px;
+}
+
 .pointer{
   cursor: pointer;
+}
+
+.Section_Universe{
+  
 }
 
 .btn_green_signup{
@@ -61,12 +79,31 @@
   color: #586069 !important;
 }
 
+.font_light_gray{
+  color: #6a737d !important;
+}
+
+.bg_universe_left{
+  background-image: url('img/bg_universe.svg');
+  background-color: #13191E;
+}
+
+.bg_universe_right{
+  background-color: #10181e;
+}
+
 .txt-center{
 	text-align: center !important;
 }
 
 .txt-welcome{
   color:hsla(0,0%,100%,0.6);
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.left_div_universe{
+  padding: 40px 40px 40px 15px;
 }
 
 .no_mobile{
@@ -139,7 +176,7 @@
 .label_search{
   background-color: #404448;
   border-radius: 4px;
-  padding: 5px 7px;
+  padding: 3px 7px;
 }
 
 .label_search:focus{
@@ -149,6 +186,10 @@
 
 .form_search{
   margin-left: 60px;
+}
+
+.label_input{
+  font-size: 14px;
 }
 
 .form_search:focus{
@@ -235,4 +276,13 @@
     font-size: 66px;
     line-height: 1;
   }
+
+  .padright30{
+    padding-right: 30px;
+  }
+  
+  .padleft30{
+    padding-left: 30px;
+  }
+  
 }
