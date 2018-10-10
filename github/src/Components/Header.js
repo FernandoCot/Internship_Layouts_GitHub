@@ -8,7 +8,7 @@ class Header extends React.Component{
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="row navbar_main_row">
                     <Link to="/" className="navbar-brand">
-                        <i className="fab fa-github github_icon"></i>
+                        <i className="fab fa-github github_icon" alt="Icon_GitHub"></i>
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@ class Header extends React.Component{
                         <form className="no_mobile form_search" method="get" action="#">
                             <label className="m-auto label_search">
                                 <input className="navbar_search" placeholder="Search GitHub"></input>
-                                <img src={Hint} alt="Hint Icon"></img>
+                                <img src={Hint} alt="Hint_Icon"></img>
                             </label>
                         </form>
                         <h5 className="font_white nav_logs">
