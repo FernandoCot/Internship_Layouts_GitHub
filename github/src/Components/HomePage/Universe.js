@@ -10,17 +10,41 @@ class Universe extends React.Component{
                 <div className="container-fluid fluid-universe">
                     <div className="row">
                         <div className="col-12 col-md-6 bg_universe_left pad0">
-                            <div className="col-12 col-md-8 left_div_universe">
-                                <div className="">
-                                    
-                                </div>
-                                <div className="">
-                                
+                            <div class="row">
+                                <div className="col-12 col-md-8 offset-md-3 left_div_universe font_white">
+                                    <div className="row">
+                                        <div className="col-2">
+                                            <img src={Hexagon} alt="Simple_Hexagon"></img>
+                                        </div>
+                                        <div className="col-10 text-left">
+                                            <h4 className="font20">GitHub Universe</h4>
+                                            <h5 className="font16">
+                                                A conference for the builders, planners, and leaders defining the future of software
+                                            </h5>
+                                            <a href="https://githubuniverse.com/get-tickets/" className="font_light_blue">Get tickets <i class="fas fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 bg_universe_right pad0">
-                        
+                            <div className="container">
+                                <div className="row">
+                                    <div className="container">
+                                        <div className="row">
+                                            <div className="col-9 font_white text-left right_div_universe">
+                                                <h5 className="font16">
+                                                    Through a combination of creativity, determination, and (a lot of) carefully crafted code, the future is being built every day. 
+                                                </h5>
+                                                <a href="https://githubuniverse.com/get-tickets/" className="font_light_blue">Learn more <i class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                            <div className="col-2">
+                                                <img src={Double_Hexagons} alt="Double Hexagons" className="double_hexagons"></img>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

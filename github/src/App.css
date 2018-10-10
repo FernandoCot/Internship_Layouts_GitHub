@@ -22,8 +22,33 @@
   overflow: hidden;
 }
 
+.double_hexagons{
+  position: absolute;
+  bottom: -40px;
+}
+
+.font_light_blue{
+  color: #79b8ff;
+}
+
+.font10{
+  font-size: 10px;
+}
+
 .font12{
   font-size: 12px;
+}
+
+.font16{
+  font-size: 16px;
+}
+
+.font20{
+  font-size: 20px;
+}
+
+.font-size{
+  font-size: 25px;
 }
 
 .pointer{
@@ -102,8 +127,8 @@
   line-height: 1.5;
 }
 
-.left_div_universe{
-  padding: 40px 40px 40px 15px;
+.left_div_universe, .right_div_universe{
+  padding: 40px 40px 40px 30px;
 }
 
 .no_mobile{
