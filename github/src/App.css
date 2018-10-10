@@ -10,6 +10,27 @@
   padding: 0 !important;
 }
 
+.li_organizations{
+  list-style-type: none;
+  float: left;
+}
+
+.justify_content_center{
+  justify-content: center !important;
+}
+
+.img_oranizations{
+  width: auto;
+  height: 25px;
+  margin: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.family_inter{
+  font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
+}
+
 .black_and_white{
   filter: grayscale(100%);
 }

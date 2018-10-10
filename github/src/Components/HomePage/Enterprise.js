@@ -9,9 +9,11 @@ class Enterprise extends React.Component{
                     <div className="col-12 col-md-8 offset-md-2 padbot40 padtop40">
                         <h1 className="font32">Try GitHub Enterprise</h1>
                         <h3 className="text-center font_gray font16">
-                            Use GitHub on-premises with your own servers or in a private cloud with <a href="https://github.com/pricing/enterprise" className="">GitHub Enterprise</a>. Improve your developer efficiency with flexible deployment options, centralized permissions, hundreds of integrations, technical support, and more.
+                            Use GitHub on-premises with your own servers or in a private cloud with <a href="https://github.com/pricing/enterprise" target="_blank" className="">GitHub Enterprise</a>. Improve your developer efficiency with flexible deployment options, centralized permissions, hundreds of integrations, technical support, and more.
                         </h3>
-                        <button className="btn_blue pointer" type="button" onclick="location.href='https://enterprise.github.com/contact';">Contact Sales</button>
+                        <a href="https://enterprise.github.com/contact" target="_blank">
+                            <button class="btn_blue pointer" type="button">Contact Sales</button>
+                        </a>
                     </div>
                 </div>
             </section>

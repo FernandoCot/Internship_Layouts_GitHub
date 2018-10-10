@@ -34,8 +34,8 @@ class Welcome extends React.Component{
                                         <button className="btn_green_signup pointer">Sign up for Github</button>
                                         <p className="text-center font_light_gray font12">
                                             By clicking “Sign up for GitHub”, you agree to our 
-                                            <a href="https://help.github.com/terms" target="blank"> terms of service </a>
-                                            and <a href="https://help.github.com/privacy" target="blank">privacy statement</a>. 
+                                            <a href="https://help.github.com/terms" target="_blank"> terms of service </a>
+                                            and <a href="https://help.github.com/privacy" target="_blank">privacy statement</a>. 
                                             We’ll occasionally send you account related emails.</p>
                                     </form>
                                 </div>
