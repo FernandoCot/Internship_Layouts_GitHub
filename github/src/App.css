@@ -10,6 +10,10 @@
   padding: 0 !important;
 }
 
+.black_and_white{
+  filter: grayscale(100%);
+}
+
 .row-cover{
   padding: 60px 45px;
   display: flex !important;
