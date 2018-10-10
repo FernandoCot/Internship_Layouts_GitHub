@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import Hint from '../img/search_hint.svg';
 
 class Header extends React.Component{
     render() {
@@ -7,7 +8,7 @@ class Header extends React.Component{
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="row navbar_main_row">
                     <Link to="/" className="navbar-brand">
-                        <i class="fab fa-github github_icon"></i>
+                        <i className="fab fa-github github_icon"></i>
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -31,12 +32,12 @@ class Header extends React.Component{
                             </li>
                         </ul>
                         <form className="no_mobile form_search" method="get" action="#">
-                            <label className="m-auto">
+                            <label className="m-auto label_search">
                                 <input className="navbar_search" placeholder="Search GitHub"></input>
-                                {/*<img className="" src="././img/search_hint.svg"></img>*/}
+                                <img src={Hint} alt="Hint Icon"></img>
                             </label>
                         </form>
-                        <h5 class="font_white nav_logs">
+                        <h5 className="font_white nav_logs">
                             <b>Sign in</b><span className="font_gray"> or </span><b>Sign up</b>
                         </h5>
                     </div>

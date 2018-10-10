@@ -7,7 +7,26 @@
 }
 
 .row-cover{
-  max-width: 100vh;
+  padding: 35px 45px;
+  display: flex !important;
+  align-items: center;
+}
+
+.fluid-welcome{
+  background-image: url("img/codelines.svg");
+  min-height: 90vh;
+  background-color: #2b3137;
+}
+
+.form_signup{
+  background-color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  padding: 25px;
+}
+
+.input_signup{
+  width: 100%;
 }
 
 .font_white{
@@ -20,6 +39,10 @@
 
 .txt-center{
 	text-align: center !important;
+}
+
+.txt-welcome{
+  color:hsla(0,0%,100%,0.6);
 }
 
 .no_mobile{
@@ -56,6 +79,8 @@
 .nav-link{
   outline: none !important;
   color: #fff !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .nav-item{
@@ -65,6 +90,8 @@
 .github_icon{
   color: #fff;
   font-size: 32px;
+  height: 32px;
+  width: 32px;
 }
 
 .navbar_main_row{
@@ -74,10 +101,35 @@
 .navbar_search{
   background-color: #404448;
   border: 1px solid transparent;
-  color: #6f848c;
+  color: #fff;
   border-radius: 4px;
-  width: 270px;
+  width: 275px;
+  font-size: 13px !important;
+}
+
+.navbar_search:focus{
+  background-color: #fff;
+  color: #758a7b;
+}
+
+.label_search{
+  background-color: #404448;
+  border-radius: 4px;
   padding: 5px 7px;
+}
+
+.label_search:focus{
+  background-color: #fff;
+  color: #758a7b;
+}
+
+.form_search{
+  margin-left: 60px;
+}
+
+.form_search:focus{
+  background-color: #fff;
+  color: #758a7b;
 }
 
 .nav_logs{
@@ -88,6 +140,8 @@
 .navbar{
   background-color: #24292e !important;
   font-size: 16px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
 }
 
 .navbar-brand{
@@ -95,49 +149,57 @@
 }
 
 .navbar-toggler-icon{
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
-
-.form_search{
-  margin-left: 60px;
-}
-
 
 /* Header Classes Above */
-
-
-
 
 
 /* --------------- Responsive Rules Start Here! ----------------- */
 
 @media (max-width: 767px){
 
-    .no_mobile{
-      display: none !important;
-    }
+  .no_mobile{
+    display: none !important;
+  }
 
-    .only_mobile{
-      display: block !important;
-    }
+  .only_mobile{
+    display: block !important;
+  }
 
-    .nav-item{
-      margin-left: 0 !important;
-    }
+  .nav-item{
+    margin-left: 0 !important;
+  }
 
-    .navbar-toggler{
-      right: 5%;
-      position: absolute;
-      background-color: #fff;
-    }
+  .navbar-toggler{
+    right: 5%;
+    position: absolute;
+    background-color: #fff;
+  }
 
-    .nav_logs{
-      margin: auto !important;
-    }
+  .nav_logs{
+    margin: auto !important;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 992px){
 
 
 
+}
+
+@media (min-width: 1100px){
+
+  .navbar-collapse{
+    max-height: 40px;
+  }
+
+  .navbar{
+    max-height: 75px;
+  }
+
+  .tit-welcome{
+    font-size: 65px;
+  }
 }
