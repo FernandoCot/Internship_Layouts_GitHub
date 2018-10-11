@@ -17,7 +17,6 @@ class App extends Component {
             <Route exact path="/user" component={UserPage}></Route>
             <Route component={NotFound}></Route>
         </Switch>
-        <Footer />
       </div>
     );
   }

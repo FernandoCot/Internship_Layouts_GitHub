@@ -15,13 +15,13 @@ import Walmart from '../../img/walmart.png';
 class Organizations extends React.Component{
     render() {
         return(
-            <section name="Section_Enterprise" className="Section_Enterprise">
+            <section name="Section_Organizations" className="Section_Organizations">
                 <div className="container">
                     <div className="col-12 padbot40 padtop40">
-                        <h3 className="font20 font_gray">
+                        <h3 className="tit_organizations">
                             More than 1.8 million businesses and organizations use GitHub
                         </h3>
-                        <ul className="black_and_white pad0 justify_content_center">
+                        <ul className="black_and_white pad0 ul_organizations line_height_150">
                             <li className="li_organizations">
                                 <img src={Airbnb} alt="Airbnb_Logo" className="img_oranizations"></img>
                             </li>

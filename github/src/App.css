@@ -10,6 +10,33 @@
   padding: 0 !important;
 }
 
+.bg_white{
+  background-color: #fff;
+}
+
+.txt_no_decoration{
+  text-decoration: none !important;
+}
+
+.links_light_blue:hover{
+  color: #79b8ff;
+}
+
+.enterprise_link{
+  color: #1277eb;
+  border-bottom: 1px solid #1277eb;
+}
+
+.enterprise_link:hover{
+  color: #0366d6;
+  outline: none;
+  text-decoration: none;
+}
+
+.no_outline{
+  outline: none;
+}
+
 .li_organizations{
   list-style-type: none;
   float: left;
@@ -22,9 +49,16 @@
 .img_oranizations{
   width: auto;
   height: 25px;
-  margin: 10px;
+  margin: 10px 10px 16px 10px;
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.tit_organizations{
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 1.25;
+  color: #6a737d;
 }
 
 .family_inter{
@@ -97,8 +131,16 @@
   cursor: pointer;
 }
 
-.Section_Universe{
-  
+.ul_organizations{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.Section_Enterprise{
+  background-image: url('https://assets-cdn.github.com/images/modules/site/patterns/dots-large.svg');
+  background-repeat: repeat;
+  background-position: center 10%;
 }
 
 .btn_green_signup{
@@ -175,6 +217,14 @@
   color:hsla(0,0%,100%,0.6);
   font-size: 22px;
   line-height: 1.5;
+}
+
+.line_height_150{
+  line-height: 1.5;
+}
+
+.line_height_125{
+  line-height: 1.25;
 }
 
 .left_div_universe, .right_div_universe{
