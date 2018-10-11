@@ -6,8 +6,8 @@ class Enterprise extends React.Component{
             <section name="Section_Enterprise" className="Section_Enterprise">
                 <div className="container">
                     <div className="bg_white col-12 col-md-8 offset-md-2 padbot40 padtop40">
-                        <h1 className="font32 line_height_150 family_inter">Try GitHub Enterprise</h1>
-                        <h3 className="text-center font_gray font16 line_height_15">
+                        <h1 className="font32 line_height_150 family_inter weight500">Try GitHub Enterprise</h1>
+                        <h3 className="txt_enterprise">
                             Use GitHub on-premises with your own servers or in a private cloud with <a href="https://github.com/pricing/enterprise" target="_blank" rel="noopener noreferrer" className="enterprise_link">GitHub Enterprise</a>. Improve your developer efficiency with flexible deployment options, centralized permissions, hundreds of integrations, technical support, and more.
                         </h3>
                         <a href="https://enterprise.github.com/contact" target="_blank" rel="noopener noreferrer">

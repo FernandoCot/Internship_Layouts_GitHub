@@ -1,4 +1,21 @@
 
+/* Importing Fonts */
+
+@font-face {
+  font-family: InterUI;
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/Inter-UI-Regular.otf');
+}
+
+@font-face {
+  font-family: InterUI;
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/Inter-UI-Medium.otf');
+}
+
+
 /* General Classes Below */
 
 .App {
@@ -54,6 +71,10 @@
   padding-right: 32px;
 }
 
+.weight500{
+  font-weight: 500;
+}
+
 .tit_organizations{
   margin-bottom: 24px;
   font-size: 20px;
@@ -84,10 +105,13 @@
 .btn_blue{
   background-color: #1277eb;
   color: #fff;
-  padding: 15px 25px;
-  border-radius: 5px;
+  padding: 16px 24px;
+  border-radius: 3px;
   border: 1px solid transparent;
   margin-top: 1rem;
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-top: 0;
 }
 
 .btn_blue:hover{
@@ -141,6 +165,11 @@
   background-image: url('https://assets-cdn.github.com/images/modules/site/patterns/dots-large.svg');
   background-repeat: repeat;
   background-position: center 10%;
+  min-height: 285px;
+}
+
+.Section_Organizations{
+  padding: 80px 0;
 }
 
 .btn_green_signup{
@@ -207,6 +236,14 @@
 
 .bg_universe_right{
   background-color: #10181e;
+}
+
+.txt_enterprise{
+  margin-bottom: 16px;
+  color: #586069;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .txt-center{
