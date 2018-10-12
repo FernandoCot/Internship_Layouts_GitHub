@@ -71,8 +71,45 @@
   padding-right: 32px;
 }
 
+.btn_work_together{
+  background-color: #fff;
+  border: 1px solid #1277eb;
+  font-size: 16px;
+  padding: 20px 32px;
+  font-weight: 500;
+  border-radius: 3px;
+  color: #1277eb;
+  cursor: pointer;
+}
+
+.tit_work_together{
+  font-size: 48px;
+  font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.25;
+  color: #24292e;
+}
+
+.txt_work_together{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 21px;
+  color: #586069;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
+}
+
 .weight500{
   font-weight: 500;
+}
+
+.weight400{
+  font-weight: normal;
 }
 
 .tit_organizations{
@@ -91,7 +128,7 @@
 }
 
 .row-cover{
-  padding: 60px 45px;
+  padding: 64px 45px;
   display: flex !important;
   align-items: center;
 }
@@ -120,7 +157,8 @@
 
 .double_hexagons{
   position: absolute;
-  bottom: -40px;
+  bottom: -70px;
+  right: 40px;
 }
 
 .font_light_blue{
@@ -246,14 +284,23 @@
   line-height: 1.5;
 }
 
+.txt_hint_work_together{
+  font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  color: #586069;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .txt-center{
 	text-align: center !important;
 }
 
 .txt-welcome{
   color:hsla(0,0%,100%,0.6);
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 21px;
   line-height: 1.5;
+  font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
 }
 
 .line_height_150{
@@ -352,6 +399,11 @@
 
 .label_input{
   font-size: 14px;
+  margin: 0 0 6px;
+}
+
+.signup_block{
+  margin: 0 0 15px 0;
 }
 
 .form_search:focus{
@@ -435,8 +487,9 @@
   }
 
   .tit-welcome{
-    font-size: 66px;
+    font-size: 64px;
     line-height: 1;
+    font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
   }
 
   .padright30{

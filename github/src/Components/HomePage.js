@@ -3,6 +3,8 @@ import Welcome from './HomePage/Welcome';
 import Universe from './HomePage/Universe';
 import Enterprise from './HomePage/Enterprise';
 import Organizations from './HomePage/Organizations';
+import WorkTogether from './HomePage/WorkTogether';
+import Boxes from './HomePage/Boxes';
 
 
 class HomePage extends React.Component{
@@ -13,6 +15,8 @@ class HomePage extends React.Component{
                 <Universe />
                 <Enterprise />
                 <Organizations />
+                <WorkTogether />
+                <Boxes />
             </div>
         )
     };

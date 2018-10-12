@@ -18,25 +18,26 @@ class Welcome extends React.Component{
                                 </div>
                                 <div className="col-12 col-md-5 padleft30">
                                     <form className="form_signup text-left" method="get" action="#">
-                                        <label className="label_input font_gray">Username</label>
-                                        <br />
-                                        <input className="font_gray input_control" placeholder="Pick a username"></input>
-                                        <br />
-                                        <label className="label_input font_gray">Email</label>
-                                        <br />
-                                        <input className="font_gray input_control" placeholder="you@example.com"></input>
-                                        <br />
-                                        <label className="label_input font_gray">Password</label>
-                                        <br />
-                                        <input className="font_gray input_control" placeholder="Create a password"></input>
-                                        <br />
+                                        <div className="signup_block">
+                                            <label className="label_input font_gray">Username</label>
+                                            <input className="font_gray input_control" placeholder="Pick a username"></input>
+                                        </div>
+                                        <div className="signup_block">
+                                            <label className="label_input font_gray">Email</label>
+                                            <input className="font_gray input_control" placeholder="you@example.com"></input>
+                                        </div>
+                                        <div className="signup_block">
+                                            <label className="label_input font_gray">Password</label>
+                                            <input className="font_gray input_control" placeholder="Create a password"></input>
+                                        </div>
                                         <p className="font_light_gray font12">Make sure it's at least 7 characters, including a number, and a lowercase letter.</p>
                                         <button className="btn_green_signup pointer">Sign up for Github</button>
                                         <p className="text-center font_light_gray font12">
                                             By clicking “Sign up for GitHub”, you agree to our 
                                             <a href="https://help.github.com/terms" target="_blank" rel="noopener noreferrer"> terms of service </a>
                                             and <a href="https://help.github.com/privacy" target="_blank" rel="noopener noreferrer">privacy statement</a>. 
-                                            We’ll occasionally send you account related emails.</p>
+                                            We’ll occasionally send you account related emails.
+                                        </p>
                                     </form>
                                 </div>
                             </div>
