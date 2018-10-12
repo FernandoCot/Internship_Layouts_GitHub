@@ -5,6 +5,7 @@ import Enterprise from './HomePage/Enterprise';
 import Organizations from './HomePage/Organizations';
 import WorkTogether from './HomePage/WorkTogether';
 import Boxes from './HomePage/Boxes';
+import Integrations from './HomePage/Integrations';
 
 
 class HomePage extends React.Component{
@@ -17,6 +18,7 @@ class HomePage extends React.Component{
                 <Organizations />
                 <WorkTogether />
                 <Boxes />
+                <Integrations />
             </div>
         )
     };
