@@ -6,6 +6,7 @@ import Organizations from './HomePage/Organizations';
 import WorkTogether from './HomePage/WorkTogether';
 import Boxes from './HomePage/Boxes';
 import Integrations from './HomePage/Integrations';
+import Verified from './HomePage/Verified';
 
 
 class HomePage extends React.Component{
@@ -18,6 +19,7 @@ class HomePage extends React.Component{
                 <Organizations />
                 <WorkTogether />
                 <Boxes />
+                <Verified />
                 <Integrations />
             </div>
         )
