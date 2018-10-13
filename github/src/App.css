@@ -214,6 +214,10 @@
   padding: 80px 0;
 }
 
+.Section_Sign_Up{
+  background-color: #24292e;
+}
+
 .btn_green_signup{
   background-color: #2ebc4f;
   padding: 20px 30px;
@@ -259,7 +263,6 @@
   font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
   margin-bottom: 4px;
   font-weight: 400;
-  text-align: left;
   color: #24292e;
 }
 
@@ -267,11 +270,11 @@
   margin-bottom: 32px;
   color: #586069;
   font-size: 14px;
-  text-align: left;
 }
 
 .div_verified_left{
   padding: 40px;
+  text-align: left;
 }
 
 .img_verified{
@@ -305,6 +308,58 @@
 
 .border_light_gray:hover{
   border-color: #fff;
+}
+
+.tit_Sign_Up{
+  font-size: 32px;
+  font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.txt_Sign_Up{
+  color: #6a737d;
+  font-size: 16px;
+  text-align: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  margin-top: 40px;
+}
+
+.input_Sign_Up{
+  width: 100%;
+  min-height: 46px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  max-width: 100%;
+  margin-right: 5px;
+  border: 1px solid #d1d5da;
+}
+
+.input_Sign_Up:focus{
+  box-shadow: 0 0 0 0.2em hsla(0,0%,100%,0.3)
+}
+
+.btn_Sign_Up{
+  background-color: #2ebc4f;
+  color: #fff;
+  padding: 16px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 3px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 0;
+}
+
+.btn_Sign_Up:hover{
+  background-color: #28a745;
+  text-decoration: none;
 }
 
 .div_large{
@@ -559,6 +614,33 @@
 
   .img_oranizations{
     height: 30px !important;
+  }
+
+  .div_verified_left{
+    text-align: center !important;
+  }
+
+  .input_Sign_Up{
+    margin: 5px 0 !important;
+    text-align: center;
+  }
+
+  .tit_Sign_Up{
+    font-size: 20px;
+    margin: 18px 0;
+  }
+
+  .txt_Sign_Up{
+    margin-top: 20px !important;
+    font-size: 14px;
+  }
+  
+  .Section_Sign_Up{
+    padding: 10px 0 !important;
+  }
+
+  .btn_Sign_Up{
+    margin: 5px 0;
   }
 }
 

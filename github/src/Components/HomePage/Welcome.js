@@ -17,7 +17,7 @@ class Welcome extends React.Component{
                                     </h4>
                                 </div>
                                 <div className="col-12 col-md-5 padleft30">
-                                    <form className="form_signup text-left" method="get" action="#">
+                                    <form className="form_signup text-left" method="post" action="#">
                                         <div className="signup_block">
                                             <label className="label_input font_gray">Username</label>
                                             <input className="font_gray input_control" placeholder="Pick a username"></input>
