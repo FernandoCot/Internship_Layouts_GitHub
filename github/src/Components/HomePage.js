@@ -7,6 +7,7 @@ import WorkTogether from './HomePage/WorkTogether';
 import Boxes from './HomePage/Boxes';
 import Integrations from './HomePage/Integrations';
 import Verified from './HomePage/Verified';
+import Footer_Home from './HomePage/Footer_Home';
 
 
 class HomePage extends React.Component{
@@ -21,6 +22,7 @@ class HomePage extends React.Component{
                 <Boxes />
                 <Verified />
                 <Integrations />
+                <Footer_Home />
             </div>
         )
     };

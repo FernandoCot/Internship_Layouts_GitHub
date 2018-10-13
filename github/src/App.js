@@ -5,7 +5,6 @@ import HomePage from './Components/HomePage';
 import UserPage from './Components/UserPage';
 import Header from './Components/Header';
 import NotFound from './Components/NotFound';
-import Footer_Home from './Components/Footer_Home';
 
 class App extends Component {
   render() {
