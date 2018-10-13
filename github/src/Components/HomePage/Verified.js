@@ -17,6 +17,16 @@ class Verified extends React.Component{
                             <img src={Img_Verified} className="img_verified" alt="Image_Verified"></img>
                         </div>
                     </div>
+                    <a href="" className="hosted col-10 col-md-7 col-lg-7">
+                        <div></div>
+                        <div>
+                            <h4 className="tit_hosted">Hosted where you need it</h4>
+                            <p className="txt_hosted">
+                                Securely and reliably host your work on GitHub.com. Or, deploy GitHub Enterprise on your own servers or in a private cloud using Amazon Web Services, Azure or Google Cloud Platform.
+                            </p>
+                            <p>Compare plans →</p>
+                        </div>
+                    </a>
                 </div>
             </section>
         )

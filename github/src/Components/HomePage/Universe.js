@@ -21,7 +21,7 @@ class Universe extends React.Component{
                                             <h5 className="font16">
                                                 A conference for the builders, planners, and leaders defining the future of software
                                             </h5>
-                                            <a href="https://githubuniverse.com/get-tickets/" target="_blank" rel="noopener noreferrer" className="no_outline txt_no_decoration font_light_blue links_light_blue family_inter">Get tickets <i class="fas fa-arrow-right"></i></a>
+                                            <a href="https://githubuniverse.com/get-tickets/" target="_blank" rel="noopener noreferrer" className="no_outline txt_no_decoration font_light_blue links_light_blue family_inter">Get tickets →</a>
                                         </div>
                                     </div>
                                 </div>
@@ -36,7 +36,7 @@ class Universe extends React.Component{
                                                 <h5 className="font16">
                                                     Through a combination of creativity, determination, and (a lot of) carefully crafted code, the future is being built every day. 
                                                 </h5>
-                                                <a href="https://github.com/buildingthefuture" target="_blank" rel="noopener noreferrer" className="no_outline txt_no_decoration font_light_blue links_light_blue family_inter">Learn more <i class="fas fa-arrow-right"></i></a>
+                                                <a href="https://github.com/buildingthefuture" target="_blank" rel="noopener noreferrer" className="no_outline txt_no_decoration font_light_blue links_light_blue family_inter">Learn more →</a>
                                             </div>
                                             <div className="col-2">
                                                 <img src={Double_Hexagons} alt="Double Hexagons" className="double_hexagons"></img>

@@ -10,7 +10,7 @@ class Integrations extends React.Component{
                     <h3 className="txt_work_together col-md-7">
                         Customize your process with GitHub apps and an intuitive API. Integrate the tools you already use or discover new favorites to create a happier, more efficient way of working.
                     </h3>
-                    <button className="btn_work_together">Learn about integrations <i class="fas fa-arrow-right"></i></button>
+                    <button className="btn_work_together">Learn about integrations →</button>
                 </div>
             </section>
         )

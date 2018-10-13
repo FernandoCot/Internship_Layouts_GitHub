@@ -159,6 +159,10 @@
   background-color: #0366d6;
 }
 
+.btn_blue:focus{
+  outline: none;
+}
+
 .double_hexagons{
   position: absolute;
   bottom: -70px;
@@ -230,6 +234,10 @@
   width: 100%;
   border-radius: 5px;
   border: 1px solid transparent;
+}
+
+.btn_green_signup:focus{
+  outline: none;
 }
 
 .tit-welcome{
@@ -330,6 +338,15 @@
   border-color: #fff;
 }
 
+.hosted{
+  margin: auto;
+  padding: 24px;
+}
+
+.hosted:hover{
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
 .tit_Sign_Up{
   font-size: 32px;
   font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
@@ -382,6 +399,10 @@
 .btn_Sign_Up:hover{
   background-color: #28a745;
   text-decoration: none;
+}
+
+.btn_Sign_Up:focus{
+  outline: none;
 }
 
 .div_flex{
@@ -453,8 +474,12 @@
   margin-top: 0 !important;
 }
 
-.left_div_universe, .right_div_universe{
+.left_div_universe{
   padding: 40px 40px 40px 30px;
+}
+
+.right_div_universe{
+  padding: 40px 40px 40px 40px;
 }
 
 .no_mobile{

@@ -10,7 +10,7 @@ class WorkTogether extends React.Component{
                     <h3 className="txt_work_together col-md-7">
                         GitHub brings teams together to work through problems, move ideas forward, and learn from each other along the way.
                     </h3>
-                    <button className="btn_work_together">Sign up your team <i class="fas fa-arrow-right"></i></button>
+                    <button className="btn_work_together">Sign up your team →</button>
                 </div>
             </section>
         )
