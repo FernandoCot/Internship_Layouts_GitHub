@@ -307,6 +307,14 @@
   border-color: #fff;
 }
 
+.div_large{
+  max-width: 1012px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+}
+
 .bg_universe_left{
   background-image: url('img/bg_universe.svg');
   background-color: #13191E;

@@ -5,7 +5,7 @@ class Verified extends React.Component{
     render() {
         return(
             <section name="Section_Verified" className="Section_Verified">
-                <div className="container text-center">
+                <div className="container div_large">
                     <div className="row">
                         <div className="col-md-6 div_verified_left">
                             <h3 className="tit_verified">Code security</h3>
