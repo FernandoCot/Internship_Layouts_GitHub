@@ -11,16 +11,16 @@ class SignUp extends React.Component{
                 </div>
                     <form className="form_Sign_Up" action="#" method="post">
                         <div className="div_extra_large div_flex">
-                            <div className="col-12 col-lg-3">
+                            <div className="col-12 col-md-9 col-lg-3 mobile_pad0 md_margin_auto">
                                 <input className="input_Sign_Up" placeholder="Pick a username"></input>
                             </div>
-                            <div className="col-12 col-lg-3">
+                            <div className="col-12 col-md-9 col-lg-3 mobile_pad0 md_margin_auto">
                                 <input className="input_Sign_Up" placeholder="Your email address"></input>
                             </div>
-                            <div className="col-12 col-lg-3">
+                            <div className="col-12 col-md-9 col-lg-3 mobile_pad0 md_margin_auto">
                                 <input className="input_Sign_Up" placeholder="Create a password"></input>
                             </div>
-                            <div className="col-12 col-lg-3">
+                            <div className="col-12 col-md-5 col-lg-3 mobile_pad0 md_margin_auto">
                                 <button className="btn_Sign_Up">Sign up for GitHub</button>
                             </div>
                         </div>

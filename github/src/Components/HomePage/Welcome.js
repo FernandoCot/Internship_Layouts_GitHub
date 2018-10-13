@@ -8,7 +8,7 @@ class Welcome extends React.Component{
                     <div className="container mobile_pad0">
                         <div className="container mobile_pad0">
                             <div className="row-cover row">
-                                <div className="col-12 col-md-7 text-left padright30">
+                                <div className="col-12 col-md-6 col-lg-7 text-left padright30">
                                     <h1 className="tit-welcome font_white">
                                         Built for developers
                                     </h1>
@@ -16,7 +16,7 @@ class Welcome extends React.Component{
                                         GitHub is a development platform inspired by the way you work. From <span className="pointer font_white border_light_gray">open source</span> to <span className="pointer font_white border_light_gray">business</span>, you can host and review code, manage projects, and build software alongside 28 million developers.
                                     </h4>
                                 </div>
-                                <div className="col-12 col-md-5 padleft30">
+                                <div className="col-12 col-md-6 col-lg-5 padleft30">
                                     <form className="form_signup text-left" method="post" action="#">
                                         <div className="signup_block">
                                             <label className="label_input font_gray">Username</label>

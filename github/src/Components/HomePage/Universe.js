@@ -11,12 +11,12 @@ class Universe extends React.Component{
                     <div className="row">
                         <div className="col-12 col-md-6 bg_universe_left pad0">
                             <div class="row">
-                                <div className="col-12 col-md-8 offset-md-3 left_div_universe font_white">
-                                    <div className="row">
-                                        <div className="col-2">
+                                <div className="col-12 col-md-8 offset-md-3 col-lg-8 offset-lg-3 left_div_universe font_white">
+                                    <div className="row row_universe_responsive">
+                                        <div className="col-3 col-md-3 col-lg-2">
                                             <img src={Hexagon} alt="Simple_Hexagon"></img>
                                         </div>
-                                        <div className="col-10 text-left">
+                                        <div className="col-9 col-md-9 col-lg-10 text-left">
                                             <h4 className="font20">GitHub Universe</h4>
                                             <h5 className="font16">
                                                 A conference for the builders, planners, and leaders defining the future of software
@@ -31,8 +31,8 @@ class Universe extends React.Component{
                             <div className="container">
                                 <div className="row">
                                     <div className="container">
-                                        <div className="row">
-                                            <div className="col-9 font_white text-left right_div_universe">
+                                        <div className="row row_universe_responsive">
+                                            <div className="col-10 col-md-9 col-lg-9 font_white text-left right_div_universe">
                                                 <h5 className="font16">
                                                     Through a combination of creativity, determination, and (a lot of) carefully crafted code, the future is being built every day. 
                                                 </h5>

@@ -114,11 +114,57 @@
         padding: 10px 16px !important;
     }
 
+    .row_universe_responsive{
+        margin: 0 20px;
+    }
+
   }
   
   @media (min-width: 768px) and (max-width: 992px){
+
+    .md_margin_auto{
+        margin: auto;
+    }
   
-  
+    .navbar-toggler{
+        right: 5%;
+        position: absolute;
+        background-color: #fff;
+    }
+
+    .div_flex{
+        display: block;
+    }
+
+    .input_Sign_Up{
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .form_Sign_Up{
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .tit_Sign_Up{
+        font-size: 20px;
+    }
+
+    .Section_Sign_Up{
+        padding: 40px 0 0 0;
+    }
+
+    .btn_Sign_Up{
+        margin: 10px 0;
+    }
+
+    .row-cover{
+        padding: 50px 0px;
+    }
+
+    .tit-welcome{
+        font-size: 55px;
+    }
   
   }
   
