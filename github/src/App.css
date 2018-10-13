@@ -219,6 +219,13 @@
   border: 1px solid transparent;
 }
 
+.tit-welcome{
+  font-size: 64px;
+  line-height: 1;
+  font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
+}
+
+
 .fluid-welcome{
   background-image: url("img/codelines.svg");
   min-height: 90vh;
@@ -468,6 +475,50 @@
     padding: 0 !important;
   }
 
+  .tit-welcome{
+    font-size: 2rem !important;
+    text-align: center !important;
+  }
+
+  .txt-welcome{
+    font-size: 1.20rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .nav_logs{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 4px;
+  }
+
+  .btn_work_together{
+    font-size: 14px !important;
+  }
+
+  .Section_Organizations{
+    padding: 0 !important;
+  }
+
+  .left_div_universe{
+    padding: 40px 40px 40px 40px !important;
+  }
+
+  .txt_work_together{
+    font-size: 19px !important;
+  }
+
+  .tit_work_together{
+    font-size: 38px !important;
+  }
+
+  .li_organizations{
+    width: 100% !important;
+  }
+
+  .img_oranizations{
+    height: 30px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
@@ -484,12 +535,6 @@
 
   .navbar{
     max-height: 73px;
-  }
-
-  .tit-welcome{
-    font-size: 64px;
-    line-height: 1;
-    font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
   }
 
   .padright30{
