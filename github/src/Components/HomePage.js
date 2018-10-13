@@ -7,8 +7,8 @@ import WorkTogether from './HomePage/WorkTogether';
 import Boxes from './HomePage/Boxes';
 import Integrations from './HomePage/Integrations';
 import Verified from './HomePage/Verified';
-import Footer_Home from './HomePage/Footer_Home';
-import Sign_Up from './HomePage/Sign_Up';
+import FooterHome from './HomePage/FooterHome';
+import SignUp from './HomePage/SignUp';
 
 
 class HomePage extends React.Component{
@@ -23,8 +23,8 @@ class HomePage extends React.Component{
                 <Boxes />
                 <Verified />
                 <Integrations />
-                <Sign_Up />
-                <Footer_Home />
+                <SignUp />
+                <FooterHome />
             </div>
         )
     };

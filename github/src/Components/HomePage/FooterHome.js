@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Footer_Home extends React.Component{
+class FooterHome extends React.Component{
     render() {
         var start = new Date().getFullYear();
         return(
@@ -13,4 +13,4 @@ class Footer_Home extends React.Component{
     };
 }
 
-export default Footer_Home;
+export default FooterHome;

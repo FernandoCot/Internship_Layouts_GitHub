@@ -1,6 +1,6 @@
 import React from "react";
 
-class Sign_Up extends React.Component{
+class SignUp extends React.Component{
     render() {
         return(
             <section name="Section_Sign_Up" className="Section_Sign_Up">
@@ -33,4 +33,4 @@ class Sign_Up extends React.Component{
     }
 }
 
-export default Sign_Up;
+export default SignUp;
