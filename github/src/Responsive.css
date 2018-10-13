@@ -1,0 +1,143 @@
+
+/* --------------- Responsive Rules Start Here! ----------------- */
+
+@media (max-width: 767px){
+
+    .no_mobile{
+      display: none !important;
+    }
+  
+    .only_mobile{
+      display: block !important;
+    }
+  
+    .nav-item{
+      margin-left: 0 !important;
+    }
+  
+    .navbar-toggler{
+      right: 5%;
+      position: absolute;
+      background-color: #fff;
+    }
+  
+    .nav_logs{
+      margin: auto !important;
+    }
+  
+    .row-cover{
+      padding: 35px 0 !important;
+    }
+  
+    .mobile_pad0{
+      padding: 0 !important;
+    }
+  
+    .tit-welcome{
+      font-size: 2rem !important;
+      text-align: center !important;
+    }
+  
+    .txt-welcome{
+      font-size: 1.20rem;
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+  
+    .nav_logs{
+      border: 1px solid #fff;
+      border-radius: 5px;
+      padding: 4px;
+    }
+  
+    .btn_work_together{
+      font-size: 14px !important;
+    }
+  
+    .Section_Organizations{
+      padding: 0 !important;
+    }
+  
+    .left_div_universe{
+      padding: 40px 40px 40px 40px !important;
+    }
+  
+    .txt_work_together{
+      font-size: 19px !important;
+    }
+  
+    .tit_work_together{
+      font-size: 38px !important;
+    }
+  
+    .li_organizations{
+      width: 100% !important;
+    }
+  
+    .img_oranizations{
+      height: 30px !important;
+    }
+  
+    .div_verified_left{
+      text-align: center !important;
+    }
+  
+    .input_Sign_Up{
+      margin: 5px 0 !important;
+      text-align: center;
+    }
+  
+    .tit_Sign_Up{
+      font-size: 20px;
+      margin: 18px 0;
+    }
+  
+    .txt_Sign_Up{
+      margin-top: 20px !important;
+      font-size: 10px;
+    }
+    
+    .Section_Sign_Up{
+      padding: 10px 0 !important;
+    }
+  
+    .btn_Sign_Up{
+      margin: 5px 0;
+    }
+  
+    .div_flex{
+      display: block !important;
+    }
+
+    .form_Sign_Up{
+        margin: 0 !important;
+        padding: 10px 16px !important;
+    }
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px){
+  
+  
+  
+  }
+  
+  @media (min-width: 1012px){
+  
+    .navbar-collapse{
+      max-height: 40px;
+    }
+  
+    .navbar{
+      max-height: 73px;
+    }
+  
+    .padright30{
+      padding-right: 30px;
+    }
+    
+    .padleft30{
+      padding-left: 30px;
+    }
+    
+  }

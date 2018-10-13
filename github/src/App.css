@@ -216,6 +216,11 @@
 
 .Section_Sign_Up{
   background-color: #24292e;
+  padding: 80px 0;
+}
+
+.Section_Verified{
+  margin: 40px 0 16px 0;
 }
 
 .btn_green_signup{
@@ -254,8 +259,9 @@
   border: 1px solid #d1d5da;
 }
 
-.Section_Verified{
-  margin: 40px 0 16px 0;
+.form_Sign_Up{
+  margin: 40px auto 0 auto;
+  padding: 40px 16px;
 }
 
 .tit_verified{
@@ -302,6 +308,20 @@
   color: #6a737d !important;
 }
 
+.py-6{
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+.mt-lg-6{
+  margin-top: 40px !important;
+}
+
+.links_sign_up:hover{
+  color: white;
+  text-decoration: underline;
+}
+
 .border_light_gray{
   border-bottom: 1px solid hsla(0,0%,100%,0.125);
 }
@@ -317,14 +337,16 @@
   margin-bottom: 0;
   text-align: center;
   color: #fff;
+  line-height: 1.5;
 }
 
 .txt_Sign_Up{
   color: #6a737d;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .input_Sign_Up{
@@ -362,8 +384,21 @@
   text-decoration: none;
 }
 
+.div_flex{
+  display: flex;
+  align-items: center;
+}
+
 .div_large{
   max-width: 1012px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+}
+
+.div_extra_large{
+  max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 16px !important;
@@ -412,6 +447,10 @@
 
 .line_height_125{
   line-height: 1.25;
+}
+
+.mt-0{
+  margin-top: 0 !important;
 }
 
 .left_div_universe, .right_div_universe{
@@ -530,6 +569,19 @@
   margin: auto;
 }
 
+.nav_link_sign{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  outline: none;
+}
+
+.nav_link_sign:hover{
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
 .navbar-toggler-icon{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
@@ -537,135 +589,3 @@
 /* Header Classes Above */
 
 
-/* --------------- Responsive Rules Start Here! ----------------- */
-
-@media (max-width: 767px){
-
-  .no_mobile{
-    display: none !important;
-  }
-
-  .only_mobile{
-    display: block !important;
-  }
-
-  .nav-item{
-    margin-left: 0 !important;
-  }
-
-  .navbar-toggler{
-    right: 5%;
-    position: absolute;
-    background-color: #fff;
-  }
-
-  .nav_logs{
-    margin: auto !important;
-  }
-
-  .row-cover{
-    padding: 35px 0 !important;
-  }
-
-  .mobile_pad0{
-    padding: 0 !important;
-  }
-
-  .tit-welcome{
-    font-size: 2rem !important;
-    text-align: center !important;
-  }
-
-  .txt-welcome{
-    font-size: 1.20rem;
-    text-align: center;
-    margin-bottom: 2.5rem;
-  }
-
-  .nav_logs{
-    border: 1px solid #fff;
-    border-radius: 5px;
-    padding: 4px;
-  }
-
-  .btn_work_together{
-    font-size: 14px !important;
-  }
-
-  .Section_Organizations{
-    padding: 0 !important;
-  }
-
-  .left_div_universe{
-    padding: 40px 40px 40px 40px !important;
-  }
-
-  .txt_work_together{
-    font-size: 19px !important;
-  }
-
-  .tit_work_together{
-    font-size: 38px !important;
-  }
-
-  .li_organizations{
-    width: 100% !important;
-  }
-
-  .img_oranizations{
-    height: 30px !important;
-  }
-
-  .div_verified_left{
-    text-align: center !important;
-  }
-
-  .input_Sign_Up{
-    margin: 5px 0 !important;
-    text-align: center;
-  }
-
-  .tit_Sign_Up{
-    font-size: 20px;
-    margin: 18px 0;
-  }
-
-  .txt_Sign_Up{
-    margin-top: 20px !important;
-    font-size: 14px;
-  }
-  
-  .Section_Sign_Up{
-    padding: 10px 0 !important;
-  }
-
-  .btn_Sign_Up{
-    margin: 5px 0;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 992px){
-
-
-
-}
-
-@media (min-width: 1012px){
-
-  .navbar-collapse{
-    max-height: 40px;
-  }
-
-  .navbar{
-    max-height: 73px;
-  }
-
-  .padright30{
-    padding-right: 30px;
-  }
-  
-  .padleft30{
-    padding-left: 30px;
-  }
-  
-}

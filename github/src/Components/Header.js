@@ -38,7 +38,7 @@ class Header extends React.Component{
                             </label>
                         </form>
                         <h5 className="font_white nav_logs">
-                            <b className="pointer">Sign in</b><span className="font_gray"> or </span><b className="pointer">Sign up</b>
+                            <a href="https://github.com/login" className="nav_link_sign pointer">Sign in</a><span className="font_gray"> or </span><a href="https://github.com/join?source=header-home" className="nav_link_sign pointer">Sign up</a>
                         </h5>
                     </div>
                 </div>
