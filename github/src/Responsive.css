@@ -19,6 +19,15 @@
       right: 5%;
       position: absolute;
       background-color: #fff;
+      outline: none;
+    }
+
+    .navbar-toggler:focus{
+      outline: none !important;
+    }
+
+    .form_search{
+      margin-left: 0;
     }
   
     .nav_logs{
@@ -80,6 +89,7 @@
   
     .div_verified_left{
       text-align: center !important;
+      padding-bottom: 0px;
     }
   
     .input_Sign_Up{
@@ -130,6 +140,11 @@
         right: 5%;
         position: absolute;
         background-color: #fff;
+        outline: none;
+    }
+
+    .navbar-toggler:focus{
+      outline: none !important;
     }
 
     .div_flex{

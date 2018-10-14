@@ -31,10 +31,10 @@ class Header extends React.Component{
                                 <Link to="/" className="nav-link">Pricing</Link>
                             </li>
                         </ul>
-                        <form className="no_mobile form_search" method="get" action="#">
+                        <form className="form_search" method="get" action="#">
                             <label className="m-auto label_search">
                                 <input className="navbar_search" placeholder="Search GitHub"></input>
-                                <img src={Hint} alt="Hint_Icon"></img>
+                                <img src={Hint} alt="Hint_Icon" className="no_mobile"></img>
                             </label>
                         </form>
                         <h5 className="font_white nav_logs">
