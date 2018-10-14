@@ -214,6 +214,10 @@
   min-height: 285px;
 }
 
+.Section_Integrations{
+  padding: 80px 0;
+}
+
 .Section_Organizations{
   padding: 80px 0;
 }
@@ -340,11 +344,38 @@
 
 .hosted{
   margin: auto;
-  padding: 24px;
+  padding: 24px !important;
+  position: relative;
+  display: block;
+  border-radius: 3px;
+  transition: 0.4s;
+  border: 1px #e1e4e8 solid !important;
+  text-decoration: none;
+  display: flex;
 }
 
 .hosted:hover{
   box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  text-decoration: none;
+  outline: none;
+}
+
+.hosted:focus{
+  outline: none;
+}
+
+.tit_hosted{
+  font-size: 16px !important;
+  font-family: InterUI,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans",sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.txt_hosted{
+  color: #586069;
+  font-size: 14px !important;
+  margin-right: 8px !important;
 }
 
 .tit_Sign_Up{
