@@ -11,7 +11,7 @@ class Card extends React.Component{
 
     componentDidMount(){
 
-        fetch('https://api.github.com/users/FernandoCot')
+        fetch('https://api.github.com/users/:user')
             .then(res => res.json())
             .then(json => {
                 this.setState({
