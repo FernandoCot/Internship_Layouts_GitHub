@@ -208,19 +208,36 @@
 }
 
 .div_user_master{
-  padding-right: 16px !important;
-  padding-left: 16px !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
   margin-top: 24px !important;
 }
 
 .div_profile_left{
   padding-right: 16px !important;
   float: left !important;
+  text-align: left;
 }
 
 .profile_pic{
   height: 230px;
   width: 230px;
+}
+
+.profile_bio{
+  margin-bottom: 12px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #6a737d;
+  line-height: 1.5;
+}
+
+.div_block{
+  display: inline-block !important;
+  text-align: left !important;
+  line-height: 1.5 !important;
+  color: #586069 !important;
+  font-size: 12px;
 }
 
 .div_card_names{
@@ -237,6 +254,8 @@
   line-height: 30px;
   display: block !important;
   overflow: hidden !important;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .card_nickname{
@@ -245,7 +264,43 @@
   font-weight: 300;
   line-height: 24px;
   color: #666;
+  margin-bottom: 0;
   display: block !important;
+}
+
+.icon_country{
+  margin-left: -22px;
+  width: 16px;
+  margin-top: 3px;
+  color: #6a737d;
+  text-align: center;
+  overflow: hidden;
+  vertical-align: text-bottom;
+  display: inline-block;
+  fill: currentColor;
+  font-size: 14px;
+}
+
+.label_country{
+  white-space: nowrap;
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+}
+
+.div_country{
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 16px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid #eaecef !important;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  padding-left: 22px;
+  font-size: 14px;
 }
 
 .Section_Enterprise{
