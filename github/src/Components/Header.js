@@ -8,12 +8,14 @@ class Header extends React.Component{
 
         document.getElementById('navbar_search').style.backgroundColor="#fff";
         document.getElementById('label_search').style.backgroundColor="#fff";
+        document.getElementById('label_search').style.paddingRight="26px";
         document.getElementById('img_search').style.display="none";
                 
     }
 
     search_click_no_focus(){
         document.getElementById('navbar_search').style.backgroundColor="#404448";
+        document.getElementById('label_search').style.paddingRight="7px";
         document.getElementById('label_search').style.backgroundColor="#404448";
         document.getElementById('img_search').style.display="inline";
     }
