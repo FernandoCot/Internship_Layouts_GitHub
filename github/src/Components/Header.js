@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom';
 import Hint from '../img/search_hint.svg';
 
 class Header extends React.Component{
+
+    search_click(){
+        document.getElementById('navbar_search').style.backgroundColor="#fff";
+        document.getElementById('label_search').style.backgroundColor="#fff";
+        document.getElementById('img_search').style.display="none";        
+    }
+
     render() {
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,9 +39,9 @@ class Header extends React.Component{
                             </li>
                         </ul>
                         <form className="form_search" method="get" action="#">
-                            <label className="m-auto label_search">
-                                <input className="navbar_search" placeholder="Search GitHub"></input>
-                                <img src={Hint} alt="Hint_Icon" className="no_mobile"></img>
+                            <label className="m-auto label_search" id="label_search">
+                                <input className="navbar_search" id="navbar_search" onClick={this.search_click} placeholder="Search GitHub"></input>
+                                <img src={Hint} alt="Hint_Icon" className="no_mobile" id="img_search"></img>
                             </label>
                         </form>
                         <h5 className="font_white nav_logs">
