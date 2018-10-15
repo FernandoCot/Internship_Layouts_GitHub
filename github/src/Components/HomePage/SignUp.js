@@ -25,7 +25,7 @@ class SignUp extends React.Component{
                             </div>
                         </div>
                         <p className="txt_Sign_Up">
-                            By clicking “Sign up for GitHub”, you agree to our <a class="font_white links_sign_up" href="https://help.github.com/terms" target="_blank" rel="noopener noreferrer">terms of service</a> and <a class="font_white links_sign_up" href="https://help.github.com/privacy" target="_blank" rel="noopener noreferrer">privacy statement</a>. We’ll occasionally send you account related emails.
+                            By clicking “Sign up for GitHub”, you agree to our <a className="font_white links_sign_up" href="https://help.github.com/terms" target="_blank" rel="noopener noreferrer">terms of service</a> and <a className="font_white links_sign_up" href="https://help.github.com/privacy" target="_blank" rel="noopener noreferrer">privacy statement</a>. We’ll occasionally send you account related emails.
                         </p>
                     </form>
             </section>

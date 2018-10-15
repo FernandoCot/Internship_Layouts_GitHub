@@ -11,7 +11,7 @@ class Enterprise extends React.Component{
                             Use GitHub on-premises with your own servers or in a private cloud with <a href="https://github.com/pricing/enterprise" target="_blank" rel="noopener noreferrer" className="enterprise_link">GitHub Enterprise</a>. Improve your developer efficiency with flexible deployment options, centralized permissions, hundreds of integrations, technical support, and more.
                         </p>
                         <a href="https://enterprise.github.com/contact" target="_blank" rel="noopener noreferrer">
-                            <button class="btn_blue pointer" type="button">Contact Sales</button>
+                            <button className="btn_blue pointer" type="button">Contact Sales</button>
                         </a>
                     </div>
                 </div>

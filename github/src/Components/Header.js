@@ -5,9 +5,33 @@ import Hint from '../img/search_hint.svg';
 class Header extends React.Component{
 
     search_click(){
-        document.getElementById('navbar_search').style.backgroundColor="#fff";
-        document.getElementById('label_search').style.backgroundColor="#fff";
-        document.getElementById('img_search').style.display="none";        
+
+        //document.getElementById('navbar_search').style.backgroundColor="#fff";
+        //document.getElementById('label_search').style.backgroundColor="#fff";
+        //document.getElementById('img_search').style.display="none";
+
+        //var x = document.activeElement.id;
+        //console.log(x);
+
+        //var x = document.onFocus.id;
+        //console.log(x);
+
+        /*if(('label.search').OnFocus = true){
+            document.getElementById('navbar_search').style.backgroundColor="#fff";
+            document.getElementById('label_search').style.backgroundColor="#fff";
+            document.getElementById('img_search').style.display="none";
+        }else{
+            document.getElementById('navbar_search').style.backgroundColor="#404448";
+            document.getElementById('label_search').style.backgroundColor="#404448";
+            document.getElementById('img_search').style.display="inline";
+        }*/
+
+        /*while('label.search'.onFocus === true){
+            document.getElementById('navbar_search').style.backgroundColor="#fff";
+            document.getElementById('label_search').style.backgroundColor="#fff";
+            document.getElementById('img_search').style.display="none";
+        }*/
+                
     }
 
     render() {
@@ -40,7 +64,7 @@ class Header extends React.Component{
                         </ul>
                         <form className="form_search" method="get" action="#">
                             <label className="m-auto label_search" id="label_search">
-                                <input className="navbar_search" id="navbar_search" onClick={this.search_click} placeholder="Search GitHub"></input>
+                                <input className="navbar_search" id="navbar_search" onFocus={this.search_click} placeholder="Search GitHub"></input>
                                 <img src={Hint} alt="Hint_Icon" className="no_mobile" id="img_search"></img>
                             </label>
                         </form>

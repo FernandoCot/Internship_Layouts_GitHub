@@ -10,7 +10,7 @@ class Universe extends React.Component{
                 <div className="container-fluid fluid-universe">
                     <div className="row">
                         <div className="col-12 col-md-6 bg_universe_left pad0">
-                            <div class="row">
+                            <div className="row">
                                 <div className="col-12 col-md-8 offset-md-3 col-lg-8 offset-lg-3 left_div_universe font_white">
                                     <div className="row row_universe_responsive">
                                         <div className="col-3 col-md-3 col-lg-2">
