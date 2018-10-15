@@ -207,6 +207,47 @@
   justify-content: center;
 }
 
+.div_user_master{
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+  margin-top: 24px !important;
+}
+
+.div_profile_left{
+  padding-right: 16px !important;
+  float: left !important;
+}
+
+.profile_pic{
+  height: 230px;
+  width: 230px;
+}
+
+.div_card_names{
+  position: static;
+  top: 0px;
+  left: 16px;
+  width: 229px;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.card_fullname{
+  font-size: 26px;
+  line-height: 30px;
+  display: block !important;
+  overflow: hidden !important;
+}
+
+.card_nickname{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #666;
+  display: block !important;
+}
+
 .Section_Enterprise{
   background-image: url('https://assets-cdn.github.com/images/modules/site/patterns/dots-large.svg');
   background-repeat: repeat;
