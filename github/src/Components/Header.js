@@ -20,7 +20,17 @@ class Header extends React.Component{
         document.getElementById('img_search').style.display="inline";
     }
 
+    constructor(props){
+        super(props);
+        this.state = {
+            search_box: [],
+        }
+    }
+
     render() {
+
+        var { search_box } = this.state;
+
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="row navbar_main_row">
@@ -48,9 +58,9 @@ class Header extends React.Component{
                                 <Link to="/" className="nav-link">Pricing</Link>
                             </li>
                         </ul>
-                        <form className="form_search" method="get" action="#">
+                        <form className="form_search" method="get">
                             <label className="m-auto label_search" id="label_search">
-                                <input className="navbar_search" id="navbar_search" onFocus={this.search_click_focus} onBlur={this.search_click_no_focus} placeholder="Search GitHub"></input>
+                                <input className="navbar_search" id="navbar_search" value={search_box} onChange={this.setState.search_box} onFocus={this.search_click_focus} onBlur={this.search_click_no_focus} placeholder="Search GitHub"></input>
                                 <img src={Hint} alt="Hint_Icon" className="no_mobile" id="img_search"></img>
                             </label>
                         </form>
