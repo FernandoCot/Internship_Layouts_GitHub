@@ -514,7 +514,7 @@
 }
 
 .no_mobile{
-  display: block !important;
+  display: inline !important;
 }
 
 .only_mobile{

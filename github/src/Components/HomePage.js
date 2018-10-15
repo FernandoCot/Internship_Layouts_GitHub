@@ -14,7 +14,7 @@ import SignUp from './HomePage/SignUp';
 class HomePage extends React.Component{
     render(){
         return(
-            <div className="">
+            <div className="HomePage">
                 <Welcome />
                 <Universe />
                 <Enterprise />

@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from './Header';
 
 class UserPage extends React.Component{
     render(){
         return(
-            <h1 className="txt-center m-5 text-primary">UserPage</h1>
+            <div className="UserPage">
+                <h1>Teste</h1>
+            </div>
         )
     };
 }
