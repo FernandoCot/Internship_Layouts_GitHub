@@ -214,6 +214,7 @@
   font-size: 14px;
   line-height: 1.5;
   color: #24292e;
+  border-bottom: solid 1px #d1d5da;
 }
 
 .user_nav_item{
@@ -226,24 +227,39 @@
   border-bottom: 2px solid transparent;
   text-decoration: none;
   outline: none;
+  display: flex;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.user_nav_item:hover{
+  color: #24292e;
+  text-decoration: none;
+  border-bottom-color: #d1d5da;
+  transition: 0.2s ease;
+}
+
+.user_nav_item:active{
+  text-decoration: none;
+  outline: none;
 }
 
 .counter{
   display: inline-block;
-  padding: 2px 5px;
+  padding: 5px 5px;
   font-size: 12px;
   font-weight: 600;
   line-height: 1;
   color: #586069;
   background-color: rgba(27,31,35,0.08);
   border-radius: 20px;
+  margin-left: 5px;
 }
 
 .div_user_master{
   padding-right: 0 !important;
   padding-left: 0 !important;
   margin-top: 24px !important;
+  display: flex;
 }
 
 .div_profile_left{
@@ -256,6 +272,11 @@
 .profile_pic{
   height: 230px;
   width: 230px;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 6px !important;
 }
 
 .profile_bio{
