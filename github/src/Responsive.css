@@ -28,16 +28,25 @@
 
     .form_search{
       margin-left: 0;
+      margin: 15px auto;
     }
   
     .nav_logs{
       margin: auto !important;
+    }
+
+    .navbar{
+      padding-bottom: 0px;
     }
   
     .row-cover{
       padding: 35px 0 !important;
     }
   
+    .div_user_master{
+      flex-wrap: wrap;
+    }
+
     .mobile_pad0{
       padding: 0 !important;
     }
@@ -57,6 +66,8 @@
       border: 1px solid #fff;
       border-radius: 5px;
       padding: 4px;
+      max-width: 70%;
+      margin: auto;
     }
   
     .btn_work_together{
@@ -67,6 +78,26 @@
       padding: 0 !important;
     }
   
+    .div_profile_left{
+      text-align: center; 
+      padding-right: 0; 
+    }
+
+    .div_country{
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .profile_pic{
+      width: 150px;
+      height: 150px;
+    }
+
+    .div_card_names{
+      margin: auto;
+      text-align: center;
+    }
+
     .left_div_universe{
       padding: 40px 40px 40px 40px !important;
     }

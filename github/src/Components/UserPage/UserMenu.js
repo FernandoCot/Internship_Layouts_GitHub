@@ -26,7 +26,7 @@ class UserMenu extends React.Component{
         var { menu } = this.state;
 
         return(
-            <div className="col-9 text-left pl-2">
+            <div className="col-lg-9 col-md-9 col-12 text-left pl-2">
                 {menu.map(json => (
                     <div key={json.id}>
                         <nav className="navbar_user">

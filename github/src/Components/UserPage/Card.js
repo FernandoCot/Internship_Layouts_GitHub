@@ -42,7 +42,7 @@ class Card extends React.Component{
         var { card } = this.state;
 
         return(
-            <div className="col-3 div_profile_left">
+            <div className="col-lg-3 col-md-3 col-12 div_profile_left">
                 {card.map(json => (
                     <div key={json.id}>
                         <img src={json.avatar_url} alt="User_Picture" className="profile_pic"></img>
