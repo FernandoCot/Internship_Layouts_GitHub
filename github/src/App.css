@@ -325,11 +325,13 @@
 
 .overview_div{
   text-align: left;
-  width: 359px;
+  /*width: 359px;*/
   padding: 16px !important;
   margin-bottom: 16px !important;
   border-radius: 3px !important;
   border: 1px solid #d1d5da !important;
+  margin-right: 2%;
+  max-width: 48% !important;
 }
 
 .div_user_master{
@@ -662,6 +664,11 @@
 
 .btn_Sign_Up:focus{
   outline: none;
+}
+
+.div_wrap_repo{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .div_flex{

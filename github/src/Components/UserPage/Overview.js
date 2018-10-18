@@ -26,7 +26,7 @@ class Overview extends React.Component{
 
         return(
             <div className="mt-4">
-                <div className="container pad0">
+                <div className="container pad0 div_flex">
                     <div className="col-6 text-left pad0">
                         <h2 className="popular_repo">Popular repositories</h2>
                     </div>
@@ -34,18 +34,20 @@ class Overview extends React.Component{
                         <span className="pinned_repo">Customize your pinned repositories</span>
                     </div>
                 </div>
-                {overview.map(json => (
-                    <div key={json.id} className="col-lg-6 col-md-6 col-12 overview_div">
-                        <span className="tit_overview_repo">{json.name}</span>
-                        <p className="txt_overview_repo">{json.description}</p>
-                        <p className="box_circle_language">
-                            <span className="language_circle_color"></span>
-                            <p className="language_overview">
-                                {json.language}
+                <div className="div_wrap_repo">
+                    {overview.map(json => (
+                        <div key={json.id} className="col-lg-6 col-md-6 col-12 overview_div">
+                            <span className="tit_overview_repo">{json.name}</span>
+                            <p className="txt_overview_repo">{json.description}</p>
+                            <p className="box_circle_language">
+                                <span className="language_circle_color"></span>
+                                <p className="language_overview">
+                                    {json.language}
+                                </p>
                             </p>
-                        </p>
-                    </div>
-                ))}
+                        </div>
+                    ))}
+                </div>
             </div>
         )
     }
