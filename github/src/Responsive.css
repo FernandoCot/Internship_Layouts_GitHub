@@ -39,6 +39,10 @@
       max-width: 100% !important;
     }
 
+    .div_flex_user_label_repo{
+      display: block;
+    }
+
     .navbar_user{
       flex-wrap: wrap;
     }
@@ -192,14 +196,18 @@
   @media (min-width: 768px) and (max-width: 992px){
 
     .md_margin_auto{
-        margin: auto;
+      margin: auto;
+    }
+
+    .user_nav_item{
+      margin: auto;
     }
   
     .navbar-toggler{
-        right: 5%;
-        position: absolute;
-        background-color: #fff;
-        outline: none;
+      right: 5%;
+      position: absolute;
+      background-color: #fff;
+      outline: none;
     }
 
     .navbar-toggler:focus{
@@ -207,12 +215,16 @@
     }
 
     .div_flex{
-        display: block;
+      display: block;
+    }
+
+    .div_flex_user_label_repo{
+      display: flex;
     }
 
     .input_Sign_Up{
-        text-align: center;
-        margin: 5px 0;
+      text-align: center;
+      margin: 5px 0;
     }
 
     .form_Sign_Up{

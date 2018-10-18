@@ -311,6 +311,10 @@
   outline: none;
 }
 
+.div_flex_user_label_repo{
+  display: flex;
+}
+
 .counter{
   display: inline-block;
   padding: 5px 5px;

@@ -26,7 +26,7 @@ class Overview extends React.Component{
 
         return(
             <div className="mt-4">
-                <div className="container pad0 div_flex">
+                <div className="container pad0 div_flex_user_label_repo">
                     <div className="col-6 text-left pad0">
                         <h2 className="popular_repo">Popular repositories</h2>
                     </div>
