@@ -35,8 +35,20 @@
       margin: auto !important;
     }
 
+    .overview_div{
+      max-width: 100% !important;
+    }
+
+    .navbar_user{
+      flex-wrap: wrap;
+    }
+
     .navbar{
       padding-bottom: 0px;
+    }
+
+    .user_nav_item{
+      margin: auto;
     }
   
     .row-cover{
