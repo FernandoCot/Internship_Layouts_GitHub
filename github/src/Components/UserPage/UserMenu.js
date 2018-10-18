@@ -1,5 +1,11 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
+import NotFound from '../NotFound';
+import Overview from './Overview';
+import Repo from './Repo';
+import Stars from './Stars';
+import Followers from './Followers';
+import Following from './Following';
 
 class UserMenu extends React.Component{
 
@@ -26,7 +32,7 @@ class UserMenu extends React.Component{
         var { menu } = this.state;
 
         return(
-            <div className="col-lg-9 col-md-9 col-12 text-left pl-2">
+            <div className="col-lg-9 col-md-9 col-12 text-left pl-2 pr-0">
                 {menu.map(json => (
                     <div key={json.id}>
                         <nav className="navbar_user">
@@ -45,7 +51,15 @@ class UserMenu extends React.Component{
                             </Link>
                         </nav>
                     </div>
-                ))}    
+                ))}
+                <Switch>
+                    <Route exact path="/users/FernandoCot" component={Overview}></Route>
+                    <Route exact path="/users/:user/repo" component={Repo}></Route>
+                    <Route exact path="/users/:user/stars" component={Stars}></Route>
+                    <Route exact path="/users/:user/followers" component={Followers}></Route>
+                    <Route exact path="/users/:user/following" component={Following}></Route>
+                    <Route component={NotFound}></Route>
+                </Switch>    
             </div>
         )
     }
