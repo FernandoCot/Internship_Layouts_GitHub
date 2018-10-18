@@ -6,7 +6,7 @@ class Universe extends React.Component{
     render() {
         return(
 
-            <section name="Section_Universe" className="Section_Universe">
+            <section className="Section_Universe">
                 <div className="container-fluid fluid-universe">
                     <div className="row">
                         <div className="col-12 col-md-6 bg_universe_left pad0">

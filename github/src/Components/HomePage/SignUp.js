@@ -3,7 +3,7 @@ import React from "react";
 class SignUp extends React.Component{
     render() {
         return(
-            <section name="Section_Sign_Up" className="Section_Sign_Up">
+            <section className="Section_Sign_Up">
                 <div className="div_large">
                     <h2 className="tit_Sign_Up">
                         Get started for free — join the millions of developers already using GitHub to share their code, work together, and build amazing things.

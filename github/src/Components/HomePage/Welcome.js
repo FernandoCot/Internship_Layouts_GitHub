@@ -3,7 +3,7 @@ import React from "react";
 class Welcome extends React.Component{
     render() {
         return(
-            <section name="Section_Cover">
+            <section className="Section_Cover">
                 <div className="container-fluid fluid-welcome">
                     <div className="container mobile_pad0">
                         <div className="container mobile_pad0">

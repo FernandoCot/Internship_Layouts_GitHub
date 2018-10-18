@@ -3,7 +3,7 @@ import React from "react";
 class Enterprise extends React.Component{
     render() {
         return(
-            <section name="Section_Enterprise" className="Section_Enterprise">
+            <section className="Section_Enterprise">
                 <div className="container">
                     <div className="bg_white col-12 col-md-8 offset-md-2 padbot40 padtop40">
                         <h1 className="mb-0 font32 line_height_150 family_inter weight500">Try GitHub Enterprise</h1>

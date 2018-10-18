@@ -15,7 +15,7 @@ import Walmart from '../../img/walmart.png';
 class Organizations extends React.Component{
     render() {
         return(
-            <section name="Section_Organizations" className="Section_Organizations">
+            <section className="Section_Organizations">
                 <div className="container">
                     <div className="col-12 padbot40 padtop40">
                         <h3 className="tit_organizations">

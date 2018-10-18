@@ -4,6 +4,7 @@ import Universe from './HomePage/Universe';
 import Enterprise from './HomePage/Enterprise';
 import Organizations from './HomePage/Organizations';
 import WorkTogether from './HomePage/WorkTogether';
+import Robots from './HomePage/Robots';
 import Boxes from './HomePage/Boxes';
 import Integrations from './HomePage/Integrations';
 import Verified from './HomePage/Verified';
@@ -20,6 +21,7 @@ class HomePage extends React.Component{
                 <Enterprise />
                 <Organizations />
                 <WorkTogether />
+                <Robots />
                 <Boxes />
                 <Verified />
                 <Integrations />

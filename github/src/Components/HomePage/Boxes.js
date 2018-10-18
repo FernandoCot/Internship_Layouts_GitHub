@@ -3,7 +3,7 @@ import React from "react";
 class Boxes extends React.Component{
     render() {
         return(
-            <section name="Section_Boxes" className="Section_Boxes">
+            <section className="Section_Boxes">
                 <div className="container text-center">
                     <p className="txt_hint_work_together">Security and administration</p>
                     <h1 className="tit_work_together mt-3 mb-2">Boxes? Check.</h1>

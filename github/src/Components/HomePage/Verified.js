@@ -4,7 +4,7 @@ import Img_Verified from "../../img/verified.png";
 class Verified extends React.Component{
     render() {
         return(
-            <section name="Section_Verified" className="Section_Verified">
+            <section className="Section_Verified">
                 <div className="container div_large">
                     <div className="row mb-3">
                         <div className="col-md-6 div_verified_left">
