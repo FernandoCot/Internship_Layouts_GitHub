@@ -352,7 +352,7 @@
 }
 
 .triangle_blue:hover{
-  color: #0366d6 !important
+  fill: #0366d6 !important
 }
 
 .robots_inside_link{
@@ -509,6 +509,14 @@
 
 .Section_Verified{
   margin: 40px 0 16px 0;
+}
+
+.Section_Boxes{
+  padding: 80px 0 10px 0;
+}
+
+.Section_Robots{
+  padding: 80px 0;
 }
 
 .btn_green_signup{

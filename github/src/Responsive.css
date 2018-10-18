@@ -77,11 +77,27 @@
     .Section_Organizations{
       padding: 0 !important;
     }
+
+    .Section_Integrations{
+      padding: 45px 0;
+    }
+
+    .Section_Robots{
+      padding: 40px 0;
+    }
   
+    .Section_Boxes{
+      padding: 40px 0 10px 0;
+    }
+
     .div_profile_left{
       text-align: center; 
       padding-right: 0; 
     }
+
+    .sm_margin_auto{
+      margin: auto;
+    }    
 
     .div_country{
       padding-right: 0;
