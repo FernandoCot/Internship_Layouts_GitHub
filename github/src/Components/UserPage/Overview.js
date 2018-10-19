@@ -30,7 +30,7 @@ class Overview extends React.Component{
                     <div className="col-lg-6 col-md-6 col-12 label_left_overview pad0">
                         <h2 className="popular_repo">Popular repositories</h2>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-12 label_left_overview pad0">
+                    <div className="col-lg-6 col-md-6 col-12 label_right_overview pad0">
                         <span className="pinned_repo">Customize your pinned repositories</span>
                     </div>
                 </div>
