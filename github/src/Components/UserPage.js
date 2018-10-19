@@ -4,12 +4,7 @@ import UserMenu from './UserPage/UserMenu';
 
 class UserPage extends React.Component{
 
-    constructor(props){
-        super(props);
-    }
-
     render(){
-        
         const user = this.props.match.params.user;
 
         return(

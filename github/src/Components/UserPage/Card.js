@@ -10,8 +10,8 @@ class Card extends React.Component{
     }
 
     componentDidMount(){
-
-        fetch('https://api.github.com/users/FernandoCot')
+        const user = this.props.user;
+        fetch('https://api.github.com/users{/user}')
             .then(res => res.json())
             .then(json => {
                 this.setState({
@@ -21,7 +21,6 @@ class Card extends React.Component{
     }
 
     render() {
-
         var { card } = this.state;
 
         return(
