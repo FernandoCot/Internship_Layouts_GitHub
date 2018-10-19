@@ -5,7 +5,7 @@ class Repo extends React.Component{
     render() {
 
         return(
-            <div>Teste</div>
+            <div>Teste repo</div>
             
         )
     }

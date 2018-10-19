@@ -15,7 +15,7 @@ class Card extends React.Component{
             .then(res => res.json())
             .then(json => {
                 this.setState({
-                    card: json,        
+                    card: [json],        
                 })
             });
     }

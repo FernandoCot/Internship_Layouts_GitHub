@@ -39,12 +39,12 @@ class Overview extends React.Component{
                         <div key={json.id} className="col-lg-6 col-md-6 col-12 overview_div">
                             <span className="tit_overview_repo">{json.name}</span>
                             <p className="txt_overview_repo">{json.description}</p>
-                            <p className="box_circle_language">
+                            <span className="box_circle_language">
                                 <span className="language_circle_color"></span>
                                 <p className="language_overview">
                                     {json.language}
                                 </p>
-                            </p>
+                            </span>
                         </div>
                     ))}
                 </div>
