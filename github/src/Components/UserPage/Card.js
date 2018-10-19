@@ -11,23 +11,6 @@ class Card extends React.Component{
 
     componentDidMount(){
 
-        //console.log(window.location.href);
-
-        //var usuario = (window.location.href);
-
-        //var usuario_kai = "http://localhost:3000/users/";
-
-        //var final = usuario - usuario_kai;
-
-        //final.toString();
-
-        //console.log(typeof(usuario));
-        //console.log(typeof(usuario_kai));
-        //console.log(typeof(final));
-        //console.log(final);
-
-        //console.log(usuario);
-
         fetch('https://api.github.com/users/FernandoCot')
             .then(res => res.json())
             .then(json => {
