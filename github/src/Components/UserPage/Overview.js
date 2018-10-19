@@ -27,10 +27,10 @@ class Overview extends React.Component{
         return(
             <div className="mt-4">
                 <div className="container pad0 div_flex_user_label_repo">
-                    <div className="col-6 text-left pad0">
+                    <div className="col-lg-6 col-md-6 col-12 label_left_overview pad0">
                         <h2 className="popular_repo">Popular repositories</h2>
                     </div>
-                    <div className="col-6 text-right pad0">
+                    <div className="col-lg-6 col-md-6 col-12 label_left_overview pad0">
                         <span className="pinned_repo">Customize your pinned repositories</span>
                     </div>
                 </div>

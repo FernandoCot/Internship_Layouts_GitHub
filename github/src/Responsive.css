@@ -37,10 +37,29 @@
 
     .overview_div{
       max-width: 100% !important;
+      text-align: center;
     }
 
     .div_flex_user_label_repo{
       display: block;
+      text-align: center !important;
+      margin-bottom: 10px;
+    }
+
+    .popular_repo{
+      margin-bottom: 0;
+    }
+
+    .block_right_userpage{
+      padding-left: 0; 
+    }
+
+    .label_left_overview{
+      text-align: center;
+    }
+
+    .label_right_overview{
+      text-align: center;
     }
 
     .navbar_user{
@@ -192,11 +211,42 @@
     }
 
   }
+
+  @media (max-width: 450px){
+
+    .div_flex_user_label_repo{
+      display: block;
+    }
+  }
   
   @media (min-width: 768px) and (max-width: 992px){
 
     .md_margin_auto{
       margin: auto;
+    }
+
+    .profile_pic{
+      height: 185px;
+      width: 185px;;
+    }
+
+    .pinned_repo{
+      margin: 0 0 8px 0 !important;
+    }
+
+    .profile_bio{
+      font-size: 13px;
+    }
+
+    .overview_div{
+      text-align: center;
+      max-width: 100% !important;
+      flex-wrap: wrap;
+      display: table;
+    }
+
+    .card_fullname{
+      font-size: 22px;
     }
 
     .user_nav_item{
@@ -238,6 +288,10 @@
 
     .Section_Sign_Up{
         padding: 40px 0 0 0;
+    }
+
+    .div_profile_left{
+      padding-right: 0;
     }
 
     .btn_Sign_Up{

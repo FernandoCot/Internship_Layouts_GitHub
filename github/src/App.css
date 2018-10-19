@@ -168,7 +168,7 @@
 .popular_repo{
   font-weight: 400 !important;
   font-size: 16px !important;
-  margin-bottom: 8px !important;
+  margin-bottom: 8px;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   line-height: 1.5;
   color: #24292e;
@@ -813,8 +813,20 @@
   display: inline;
 }
 
+.block_right_userpage{
+  padding-left: 0.5rem;
+}
+
 .only_mobile{
   display: none;
+}
+
+.label_left_overview{
+  text-align: left;
+}
+
+.label_right_overview{
+  text-align: right;
 }
 
 
