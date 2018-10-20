@@ -95,6 +95,21 @@
   margin-right: 2px;
 }
 
+.img_octo_cat{
+  width: auto;
+  height: 300px;
+}
+
+.div_not_found{
+  border: 5px solid #212529;
+  margin: 40px 185px;
+  border-radius: 10px;
+  color: #212529;
+  background: #fff;
+  text-align: center;
+  background-color: rgb(204,204,204, 0.5);  
+}
+
 .div_each_repo_body{
   display: block !important;
   padding-top: 24px !important;
