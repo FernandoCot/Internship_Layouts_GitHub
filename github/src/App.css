@@ -35,6 +35,22 @@
   background-color: #fff;
 }
 
+.input_repo_body{
+  min-height: 34px;
+  padding: 6px 8px;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: middle;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  margin: 0;
+  font-size: 14px;
+  width: 385px;
+}
+
 .txt_no_decoration{
   text-decoration: none !important;
 }
