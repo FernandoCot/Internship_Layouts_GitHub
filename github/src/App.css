@@ -110,6 +110,10 @@
   background-color: rgb(204,204,204, 0.5);  
 }
 
+.txt_not_found{
+  padding: 0 20px;
+}
+
 .div_each_repo_body{
   display: block !important;
   padding-top: 24px !important;

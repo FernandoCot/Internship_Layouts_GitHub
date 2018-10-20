@@ -104,6 +104,15 @@
       max-width: 70%;
       margin: auto;
     }
+
+    .div_not_found{
+      margin: 20px 15px;
+    }
+
+    .img_octo_cat{
+      width: auto;
+      height: 150px;
+    }
   
     .btn_work_together{
       font-size: 14px !important;
@@ -223,6 +232,15 @@
 
     .md_margin_auto{
       margin: auto;
+    }
+
+    .div_not_found{
+      margin: 35px 20px;
+    }
+
+    .img_octo_cat{
+      height: 200px;
+      width: auto;
     }
 
     .profile_pic{
