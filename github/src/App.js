@@ -3,9 +3,9 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import './Responsive.css';
 import HomePage from './Components/HomePage';
-import UserPage from './Components/UserPage';
 import Header from './Components/Header';
 import NotFound from './Components/NotFound';
+import Overview from './Components/UserPage/Overview';
 
 class App extends Component {
   render() {
@@ -15,7 +15,11 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
               <Route exact path="/" component={HomePage}></Route>
-              <Route exact path="/users/:user" component={UserPage}></Route>
+              <Route exact path="/users/:user" component={Overview}></Route>
+              <Route exact path="/users/:user/repo" component={NotFound}></Route>
+              <Route exact path="/users/:user/stars" component={NotFound}></Route>
+              <Route exact path="/users/:user/followers" component={NotFound}></Route>
+              <Route exact path="/users/:user/following" component={NotFound}></Route>
               <Route component={NotFound}></Route>
           </Switch>
         </BrowserRouter>

@@ -1,13 +1,9 @@
 import React from "react";
-import { Switch, Route, Link } from 'react-router-dom';
-import NotFound from '../NotFound';
-import Overview from './Overview';
-import Repo from './Repo';
-import Stars from './Stars';
-import Followers from './Followers';
-import Following from './Following';
+import { Link } from 'react-router-dom';
+import OverviewRepo from "./OverviewRepo";
 
-class UserMenu extends React.Component{
+
+class UserMenuOverview extends React.Component{
 
     constructor(props){
         super(props);
@@ -53,17 +49,10 @@ class UserMenu extends React.Component{
                         </nav>
                     </div>
                 ))}
-                <Switch>
-                    <Route exact path="/users/:user" component={Overview}></Route>
-                    <Route exact path="/users/:user/repo" component={Repo}></Route>
-                    <Route exact path="/users/:user/stars" component={Stars}></Route>
-                    <Route exact path="/users/:user/followers" component={Followers}></Route>
-                    <Route exact path="/users/:user/following" component={Following}></Route>
-                    <Route component={NotFound}></Route>
-                </Switch>    
+                <OverviewRepo user={user}/>    
             </div>
         )
     }
 }
 
-export default UserMenu;
+export default UserMenuOverview;
