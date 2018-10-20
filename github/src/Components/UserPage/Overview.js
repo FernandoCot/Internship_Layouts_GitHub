@@ -10,8 +10,8 @@ class Overview extends React.Component{
     }
 
     componentDidMount(){
-        
-        fetch('https://api.github.com/users/FernandoCot/repos')
+        const user = this.props.match.params.user;
+        fetch('https://api.github.com/users/'+user+'/repos')
             .then(res => res.json())
             .then(json => {
                 this.setState({

@@ -17,8 +17,8 @@ class UserMenu extends React.Component{
     }
     
     componentDidMount(){
-        
-        fetch('https://api.github.com/users/FernandoCot')
+        const user = this.props.user;
+        fetch('https://api.github.com/users/'+user)
             .then(res => res.json())
             .then(json => {
                 this.setState({
@@ -30,6 +30,7 @@ class UserMenu extends React.Component{
     render() {
 
         var { menu } = this.state;
+        const user = this.props.user;
 
         return(
             <div className="col-lg-9 col-md-9 col-12 text-left block_right_userpage pr-0">
@@ -53,7 +54,7 @@ class UserMenu extends React.Component{
                     </div>
                 ))}
                 <Switch>
-                    <Route exact path="/users/FernandoCot" component={Overview}></Route>
+                    <Route exact path="/users/:user" component={Overview}></Route>
                     <Route exact path="/users/:user/repo" component={Repo}></Route>
                     <Route exact path="/users/:user/stars" component={Stars}></Route>
                     <Route exact path="/users/:user/followers" component={Followers}></Route>
