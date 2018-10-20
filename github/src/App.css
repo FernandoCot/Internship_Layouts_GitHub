@@ -100,6 +100,22 @@
   height: 300px;
 }
 
+.img_followers{
+  width: 50px;
+  height: 50px;
+}
+
+.div_each_follower{
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+  border-color: #eaecef !important;
+  border-bottom: 1px #e1e4e8 solid !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 1.5;
+  display: flex;
+}
+
 .div_not_found{
   border: 5px solid #212529;
   margin: 40px 185px;

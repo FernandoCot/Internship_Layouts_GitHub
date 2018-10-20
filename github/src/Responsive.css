@@ -219,6 +219,15 @@
         margin: 0 20px;
     }
 
+    .input_repo_body{
+      width: 100%;
+    }
+
+    .form_repo_body{
+      display: block;
+      text-align: center;
+    }
+
   }
 
   @media (max-width: 450px){
@@ -229,6 +238,11 @@
   }
   
   @media (min-width: 768px) and (max-width: 992px){
+
+    .form_repo_body{
+      display: block;
+      text-align: center;
+    }
 
     .md_margin_auto{
       margin: auto;
