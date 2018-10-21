@@ -34,7 +34,7 @@ class UserMenuRepo extends React.Component{
                     <div key={json.id}>
                         <nav className="navbar_user">
                             <Link to={"/users/"+user} className="user_nav_item">Overview</Link>
-                            <Link to={"/users/"+user+"/repo"} className="user_nav_item">Repositories
+                            <Link to={"/users/"+user+"/repo"} className="user_nav_item selected">Repositories
                                 <span className="counter">{json.public_repos}</span>
                             </Link>
                             <Link to={"/users/"+user+"/stars"} className="user_nav_item">Stars

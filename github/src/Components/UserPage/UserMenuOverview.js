@@ -33,7 +33,7 @@ class UserMenuOverview extends React.Component{
                 {menu.map(json => (
                     <div key={json.id}>
                         <nav className="navbar_user">
-                            <Link to={"/users/"+user} className="user_nav_item">Overview</Link>
+                            <Link to={"/users/"+user} className="user_nav_item selected">Overview</Link>
                             <Link to={"/users/"+user+"/repo"} className="user_nav_item">Repositories
                                 <span className="counter">{json.public_repos}</span>
                             </Link>

@@ -43,7 +43,7 @@ class UserMenuFollowing extends React.Component{
                             <Link to={"/users/"+user+"/followers"} className="user_nav_item">Followers
                                 <span className="counter">{json.followers}</span>
                             </Link>
-                            <Link to={"/users/"+user+"/following"} className="user_nav_item">Following
+                            <Link to={"/users/"+user+"/following"} className="user_nav_item selected">Following
                                 <span className="counter">{json.following}</span>
                             </Link>
                         </nav>
