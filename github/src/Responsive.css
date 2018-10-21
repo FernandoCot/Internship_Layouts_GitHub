@@ -153,6 +153,16 @@
       height: 150px;
     }
 
+    .inner_left_footer{
+      text-align: center;
+      padding: 10px 30px;
+    }
+
+    .inner_right_footer{
+      text-align: center;
+      padding: 10px 30px;
+    }
+
     .div_card_names{
       margin: auto;
       text-align: center;
