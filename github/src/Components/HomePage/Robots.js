@@ -18,7 +18,7 @@ class Robots extends React.Component{
                                     </p>
                                 </div>
                                 <div className="offset-1 col-1 pad0 no_mobile">
-                                    <svg class="octicon octicon-triangle-right triangle_blue" viewBox="0 0 6 16" version="1.1" width="6" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 14l6-6-6-6v12z"></path></svg>
+                                    <svg className="octicon octicon-triangle-right triangle_blue" viewBox="0 0 6 16" version="1.1" width="6" height="16" aria-hidden="true"><path fillRule="evenodd" d="M0 14l6-6-6-6v12z"></path></svg>
                                 </div>
                             </div>
                         </a>
@@ -31,7 +31,7 @@ class Robots extends React.Component{
                                     </p>
                                 </div>
                                 <div className="offset-1 col-1 pad0 no_mobile">
-                                    <svg class="octicon octicon-triangle-right triangle_blue" viewBox="0 0 6 16" version="1.1" width="6" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 14l6-6-6-6v12z"></path></svg>
+                                    <svg className="octicon octicon-triangle-right triangle_blue" viewBox="0 0 6 16" version="1.1" width="6" height="16" aria-hidden="true"><path fillRule="evenodd" d="M0 14l6-6-6-6v12z"></path></svg>
                                 </div>
                             </div>
                         </a>
@@ -44,7 +44,7 @@ class Robots extends React.Component{
                                     </p>
                                 </div>
                                 <div className="offset-1 col-1 pad0 no_mobile">
-                                    <svg class="octicon octicon-triangle-right triangle_blue" viewBox="0 0 6 16" version="1.1" width="6" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 14l6-6-6-6v12z"></path></svg>
+                                    <svg className="octicon octicon-triangle-right triangle_blue" viewBox="0 0 6 16" version="1.1" width="6" height="16" aria-hidden="true"><path fillRule="evenodd" d="M0 14l6-6-6-6v12z"></path></svg>
                                 </div>
                             </div>
                         </a>
