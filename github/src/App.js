@@ -8,6 +8,7 @@ import NotFound from './Components/NotFound';
 import Overview from './Components/UserPage/Overview';
 import Repo from './Components/UserPage/Repo';
 import Followers from './Components/UserPage/Followers';
+import Following from './Components/UserPage/Following';
 
 class App extends Component {
   render() {
@@ -21,7 +22,7 @@ class App extends Component {
               <Route exact path="/users/:user/repo" component={Repo}></Route>
               <Route exact path="/users/:user/stars" component={NotFound}></Route>
               <Route exact path="/users/:user/followers" component={Followers}></Route>
-              <Route exact path="/users/:user/following" component={NotFound}></Route>
+              <Route exact path="/users/:user/following" component={Following}></Route>
               <Route component={NotFound}></Route>
           </Switch>
         </BrowserRouter>
