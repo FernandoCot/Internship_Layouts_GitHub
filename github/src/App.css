@@ -136,12 +136,48 @@
   color: #24292e;
 }
 
+.txt_circle{
+  font-size: 14px !important;
+  margin: 8px auto;
+  color: #586069 !important;
+  width: 50%;
+  text-align: center !important;
+}
+
+.link_circle{
+  text-decoration: none !important;
+  font-size: 16px !important;
+  line-height: 1.5;
+}
+
+.div_logo_group{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div_logo_circle{
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 1px 5px rgba(27,31,35,0.15);
+}
+
+.logo_circle{
+  max-width: 60% !important;
+  height: auto !important;
+  max-height: 55% !important;
+  text-align: center !important;
+}
+
 .only_large{
   display: inline-block;
 }
 
 .div_component_graphic{
-  padding: 5px 0 0;
+  padding: 5px 30px;
   text-align: center;
 }
 

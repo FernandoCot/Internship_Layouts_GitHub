@@ -278,6 +278,10 @@
       text-align: center;
     }
 
+    .div_logo_group{
+      display: block;
+    }
+
   }
 
   @media (max-width: 450px){
@@ -291,6 +295,10 @@
 
     .only_large{
       display: none;
+    }
+
+    div_logo_group{
+      display: flex;
     }
 
     .form_search{
