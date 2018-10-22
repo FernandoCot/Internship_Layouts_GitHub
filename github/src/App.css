@@ -142,17 +142,30 @@
   color: #586069 !important;
   width: 50%;
   text-align: center !important;
+  padding: 0 170px;
 }
 
 .link_circle{
   text-decoration: none !important;
   font-size: 16px !important;
   line-height: 1.5;
+  color: #0366d6;
+}
+
+.circle_up{
+  margin-bottom: 16px;
+  margin-top: -24px;
+}
+
+.circle_down{
+  margin-top: 24px;
 }
 
 .div_logo_group{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding: 40px 15px;
+  margin: 40px auto;
 }
 
 .div_logo_circle{
@@ -163,6 +176,8 @@
   justify-content: center;
   border-radius: 50%;
   box-shadow: 0 1px 5px rgba(27,31,35,0.15);
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .logo_circle{

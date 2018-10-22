@@ -29,25 +29,25 @@ class Integrations extends React.Component{
                     <button className="btn_work_together">Learn about integrations →</button>
                 </div>
                 <div className="container div_logo_group">
-                    <div style={circle1} className="div_logo_circle">
+                    <div style={circle1} className="div_logo_circle circle_up">
                         <img src={Slack} className="logo_circle" alt="Logo Slack"></img>
                     </div>
-                    <div style={circle2} className="div_logo_circle">
+                    <div style={circle2} className="div_logo_circle circle_down">
                         <img src={Zenhub} className="logo_circle" alt="Logo Zenhub"></img>
                     </div>
-                    <div style={circle3} className="div_logo_circle">
+                    <div style={circle3} className="div_logo_circle circle_up">
                         <img src={Travis} className="logo_circle" alt="Logo Travis"></img>
                     </div>
-                    <div style={circle4} className="div_logo_circle">
+                    <div style={circle4} className="div_logo_circle circle_down">
                         <img src={Atom} className="logo_circle" alt="Logo Atom"></img>
                     </div>
-                    <div style={circle5} className="div_logo_circle">
+                    <div style={circle5} className="div_logo_circle circle_up">
                         <img src={Circle} className="logo_circle" alt="Logo Circle"></img>
                     </div>
-                    <div style={circle6} className="div_logo_circle">
+                    <div style={circle6} className="div_logo_circle circle_down">
                         <img src={Google} className="logo_circle" alt="Logo Google"></img>
                     </div>
-                    <div style={circle7} className="div_logo_circle">
+                    <div style={circle7} className="div_logo_circle circle_up">
                         <img src={CodeClimate} className="logo_circle" alt="Logo Code Climate"></img>
                     </div>
                 </div>
