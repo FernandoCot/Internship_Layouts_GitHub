@@ -2,7 +2,7 @@ import React from 'react'
 
 class FooterHome extends React.Component{
     render() {
-        var start = new Date().getFullYear();
+        var currentYear = new Date().getFullYear();
         return(
             <footer className="footer_home">
                 <div className="div_large div_footer_home">
@@ -56,7 +56,7 @@ class FooterHome extends React.Component{
                 <div>
                     <div className="div_large sub_footer_home">
                         <div className="col-12 col-lg-6 inner_left_footer">
-                            <span className="links_footer_home">© {start} GitHub, Inc.</span>
+                            <span className="links_footer_home">© {currentYear} GitHub, Inc.</span>
                             <a href="https://help.github.com/articles/github-terms-of-service/" target="_blank" rel="noopener noreferrer" className="links_footer_home">Terms</a>
                             <a href="https://help.github.com/articles/github-privacy-statement/" target="_blank" rel="noopener noreferrer" className="links_footer_home">Privacy</a>
                         </div>

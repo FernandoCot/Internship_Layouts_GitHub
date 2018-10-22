@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card';
 import UserMenuOverview from './UserMenuOverview';
+import FooterUser from './FooterUser';
 
 class Overview extends React.Component{
 
@@ -13,6 +14,7 @@ class Overview extends React.Component{
                     <Card user={user} />
                     <UserMenuOverview user={user}/>
                 </div>
+                <FooterUser />
             </div>
         )
     };

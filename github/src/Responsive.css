@@ -160,6 +160,7 @@
 
     .div_footer{
       margin-bottom: 20px;
+      text-align: center;
     }
 
     .icon_country{
@@ -252,6 +253,10 @@
         margin: 0 20px;
     }
 
+    .flex_robots{
+      display: block;
+    }
+
     .input_repo_body{
       width: 100%;
     }
@@ -272,9 +277,21 @@
   
   @media (min-width: 768px) and (max-width: 992px){
 
+    .inner_left_footer{
+      text-align: center;
+    }
+
+    .inner_right_footer{
+      text-align: center;
+    }
+
     .sub_footer_home{
       display: flex;
       flex-wrap: wrap-reverse;
+    }
+
+    .footer_home_social_networks{
+      margin: 10px 7px;
     }
 
     .div_footer{
@@ -349,6 +366,14 @@
 
     .div_flex{
       display: block;
+    }
+
+    .div_boxes_robot{
+      margin-top: 8px;
+    }
+
+    .flex_robots{
+      display: flex;
     }
 
     .div_flex_user_label_repo{

@@ -73,6 +73,14 @@
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
+.links_footer_user{
+  margin-right: 16px;
+}
+
+.flex_robots{
+  display: flex;
+}
+
 .description_repo_body{
   color: #586069;
 }
@@ -1033,11 +1041,6 @@
   text-align: right;
 }
 
-
-/* General Classes Above */
-
-/* Footer Classes Below */
-
 .footer_home{
   margin-top: 40px;
 	background-color: #fff;
@@ -1096,6 +1099,25 @@
   display: flex;
 }
 
+.octicon_footer_user{
+  fill: #c6cbd1;
+}
+
+.octicon_footer_user:hover{
+  fill: #959da5;
+}
+
+.div_footer_user{
+  display: flex !important;
+  font-size: 12px !important;
+  padding-top: 40px !important;
+  padding-bottom: 8px !important;
+  margin-top: 40px !important;
+  position: relative !important;
+  justify-content: space-between !important;
+  border-top: 1px #eaecef solid !important;
+}
+
 .txt_footer_home{
   color: #586069 !important;
   margin-bottom: 16px;
@@ -1133,10 +1155,6 @@
   fill: #959da5;
   margin-right: 16px;
 }
-
-/* Footer Classes Above */
-
-/* Header Classes Below */
 
 .nav-link{
   outline: none !important;
@@ -1231,6 +1249,5 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
 
-/* Header Classes Above */
 
 

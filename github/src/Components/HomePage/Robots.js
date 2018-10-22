@@ -4,7 +4,7 @@ class Robots extends React.Component{
     render() {
         return(
             <section className="Section_Robots">
-                <div className="div_flex">
+                <div className="flex_robots">
                     <div className="col-lg-7 col-md-7 col-12">
                         <img className="Img_Robot" src="https://assets-cdn.github.com/images/modules/site/home-illo-team.svg" alt="Robot_Receiving_Data"></img>
                     </div>
