@@ -148,9 +148,32 @@
       padding-left: 0;
     }
 
+    .sub_footer_home{
+      display: flex;
+      flex-wrap: wrap-reverse;
+    }
+
     .profile_pic{
       width: 150px;
       height: 150px;
+    }
+
+    .div_footer{
+      margin-bottom: 20px;
+    }
+
+    .icon_country{
+      float: none;
+    }
+
+    .div_footer_home{
+      margin-bottom: 0;
+      padding: 20px 16px;
+    }
+
+    .sub_menus_footer_home{
+      margin: 15px 0;
+      text-align: center;
     }
 
     .inner_left_footer{
@@ -248,6 +271,24 @@
   }
   
   @media (min-width: 768px) and (max-width: 992px){
+
+    .sub_footer_home{
+      display: flex;
+      flex-wrap: wrap-reverse;
+    }
+
+    .div_footer{
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .ul_footer_home{
+      margin-bottom: 45px;
+    }
+
+    .sub_menus_footer_home{
+      text-align: center;
+    }
 
     .form_repo_body{
       display: block;
