@@ -25,13 +25,13 @@ class RepoBody extends React.Component{
         var { RepoBody } = this.state;
 
         return(
-            <div className="">
+            <div>
                 <div className="div_form_repo_body">
                     <form className="form_repo_body">
                         <div className="pr-4">
                             <input type="text" className="input_repo_body" placeholder="Find a repository..."></input>
                         </div>
-                        <div className="">
+                        <div className="box_selects_repo_body">
                             <select className="select_form_repo_body">
                                 <option>Type: All</option>
                                 <option>All</option>
@@ -63,7 +63,7 @@ class RepoBody extends React.Component{
                                 </h3>
                             </div>
                             <div>
-                                <p>{json.description}</p>
+                                <p className="description_repo_body">{json.description}</p>
                             </div>
                             <div className="repo_body_increments">
                                 <span className="box_circle_language mr-3">
