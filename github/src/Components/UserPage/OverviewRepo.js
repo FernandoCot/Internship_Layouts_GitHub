@@ -44,7 +44,9 @@ class OverviewRepo extends React.Component{
                 <div className="div_wrap_repo">
                     {overview.map(json => (
                         <div key={json.id} className="col-lg-6 col-md-6 col-12 overview_div">
-                            <span className="tit_overview_repo">{json.name}</span>
+                            <a href={json.html_url} target="_blank" rel="noopener noreferrer">
+                                <span className="tit_overview_repo">{json.name}</span>
+                            </a>
                             <p className="txt_overview_repo">{json.description}</p>
                             <span className="box_circle_language">
                                 <span className="language_circle_color"></span>
@@ -56,14 +58,14 @@ class OverviewRepo extends React.Component{
                     ))}
                 </div>
                 <div className="no_mobile">
-                    <h2 className="tit_contributions">Contributions in the last year</h2>
+                    <h2 className="tit_contributions mt-4">Contributions in the last year</h2>
                     <div className="div_contributions_gray_border">
                         <div className="div_component_graphic">
                             <ContributionsGraphic />
                         </div>
                         <div className="flex_contributions">
                             <div>
-                                <a href="https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile" className="" target="_blank" rel="noopener noreferrer">
+                                <a href="https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile" target="_blank" rel="noopener noreferrer">
                                     Learn how we count contributions
                                 </a>
                             </div>
