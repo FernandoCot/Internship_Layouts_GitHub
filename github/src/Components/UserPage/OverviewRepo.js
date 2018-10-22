@@ -23,6 +23,11 @@ class OverviewRepo extends React.Component{
     render() {
 
         var { overview } = this.state;
+        const user = this.props.user;
+        var date_day = new Date().getDate();
+        var date_month = new Date().getMonth();
+        var date_year = new Date().getFullYear();
+        var format_date = date_year + "-" + date_month + "-" + date_day;
 
         return(
             <div className="mt-4">
@@ -47,6 +52,14 @@ class OverviewRepo extends React.Component{
                             </span>
                         </div>
                     ))}
+                </div>
+                <div>
+                    <h2></h2>
+                    <div>
+                        <div data-graph-url={"/users/"+user+"/contributions?to="+format_date} from="2018-10-01" data-to={format_date} data-url={"/"+user}>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         )

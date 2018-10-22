@@ -285,6 +285,18 @@
   
   @media (min-width: 768px) and (max-width: 992px){
 
+    .form_search{
+      margin-left: 8px 0;
+    }
+
+    .nav_logs{
+      margin: auto 0 auto 0;
+    }
+
+    .nav-item{
+      margin-left: 0;
+    }
+
     .inner_left_footer{
       text-align: center;
     }
