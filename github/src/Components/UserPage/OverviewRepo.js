@@ -1,4 +1,5 @@
 import React from "react";
+import ContributionsGraphic from "./ContributionsGraphic";
 
 class OverviewRepo extends React.Component{
 
@@ -23,11 +24,12 @@ class OverviewRepo extends React.Component{
     render() {
 
         var { overview } = this.state;
-        const user = this.props.user;
-        var date_day = new Date().getDate();
-        var date_month = new Date().getMonth();
-        var date_year = new Date().getFullYear();
-        var format_date = date_year + "-" + date_month + "-" + date_day;
+
+        var style1 = { backgroundColor: '#ebedf0'};
+        var style2 = { backgroundColor: '#c6e48b'};
+        var style3 = { backgroundColor: '#7bc96f'};
+        var style4 = { backgroundColor: '#239a3b'};
+        var style5 = { backgroundColor: '#196127'};
 
         return(
             <div className="mt-4">
@@ -53,11 +55,29 @@ class OverviewRepo extends React.Component{
                         </div>
                     ))}
                 </div>
-                <div>
-                    <h2></h2>
-                    <div>
-                        <div data-graph-url={"/users/"+user+"/contributions?to="+format_date} from="2018-10-01" data-to={format_date} data-url={"/"+user}>
-                            
+                <div className="no_mobile">
+                    <h2 className="tit_contributions">Contributions in the last year</h2>
+                    <div className="div_contributions_gray_border">
+                        <div className="div_component_graphic">
+                            <ContributionsGraphic />
+                        </div>
+                        <div className="flex_contributions">
+                            <div>
+                                <a href="https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile" className="" target="_blank" rel="noopener noreferrer">
+                                    Learn how we count contributions
+                                </a>
+                            </div>
+                            <div>
+                                <span>Less</span>
+                                <ul className="ul_contributions">
+                                    <li style={style1} className="li_contributions"></li>
+                                    <li style={style2} className="li_contributions"></li>
+                                    <li style={style3} className="li_contributions"></li>
+                                    <li style={style4} className="li_contributions"></li>
+                                    <li style={style5} className="li_contributions"></li>
+                                </ul>
+                                <span>More</span>
+                            </div>
                         </div>
                     </div>
                 </div>

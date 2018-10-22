@@ -98,6 +98,56 @@
   vertical-align: middle;
 }
 
+.flex_contributions{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px 4px 16px !important; 
+  font-size: 11px;
+  margin: 4px 16px 0 16px !important;
+}
+
+.grafic_months{
+  font-size: 10px;
+  fill: #767676;
+}
+
+.ul_contributions{
+  position: relative;
+  bottom: -1px;
+  display: inline-block;
+  margin: 0 5px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.li_contributions{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 1px;
+}
+
+.tit_contributions{
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  margin-bottom: 8px !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+}
+
+.div_component_graphic{
+  padding: 5px 0 0;
+}
+
+.div_contributions_gray_border{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  border: 1px #d1d5da solid !important;
+}
+
 .repo_body_increments{
   color: #586069;
 }
