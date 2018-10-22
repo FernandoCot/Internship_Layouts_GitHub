@@ -8,7 +8,7 @@ class FooterUser extends React.Component{
                 <footer className="div_large">
                     <div className="div_footer_user">
                         <div>
-                            <span className="links_footer_user">© {currentYear} GitHub, Inc.</span>
+                            <span className="links_footer_user no_mobile year_footer_user">© {currentYear} GitHub, Inc.</span>
                             <span>
                                 <a href="https://github.com/site/terms" target="_blank" className="links_footer_user" rel="noopener noreferrer">
                                     Terms
@@ -30,7 +30,7 @@ class FooterUser extends React.Component{
                                 </a>
                             </span>
                             <span>
-                                <a href="https://help.github.com/" target="_blank" className="links_footer_user" rel="noopener noreferrer">
+                                <a href="https://help.github.com/" target="_blank" rel="noopener noreferrer">
                                     Help
                                 </a>
                             </span>
@@ -69,10 +69,13 @@ class FooterUser extends React.Component{
                                 </a>
                             </span>
                             <span>
-                                <a href="https://github.com/about" target="_blank" className="links_footer_user" rel="noopener noreferrer">
+                                <a href="https://github.com/about" target="_blank" rel="noopener noreferrer">
                                     About
                                 </a>
                             </span>
+                        </div>
+                        <div className="only_mobile link_footer_year_mobile">
+                            <span className="year_footer_user">© {currentYear} GitHub, Inc.</span>
                         </div>
                     </div>
                 </footer>

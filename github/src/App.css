@@ -1025,6 +1025,10 @@
   display: inline;
 }
 
+.year_footer_user{
+  color: #586069;
+}
+
 .block_right_userpage{
   padding-left: 0.5rem;
 }
@@ -1108,14 +1112,18 @@
 }
 
 .div_footer_user{
-  display: flex !important;
+  display: flex;
   font-size: 12px !important;
   padding-top: 40px !important;
-  padding-bottom: 8px !important;
+  padding-bottom: 40px !important;
   margin-top: 40px !important;
   position: relative !important;
   justify-content: space-between !important;
   border-top: 1px #eaecef solid !important;
+}
+
+.link_footer_year_mobile{
+  margin: 10px auto 0 auto;
 }
 
 .txt_footer_home{
