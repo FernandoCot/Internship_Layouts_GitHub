@@ -179,6 +179,11 @@
       float: none;
     }
 
+    .txt_circle{
+      padding: 0;
+      margin: 10px auto;
+    }
+
     .div_footer_home{
       margin-bottom: 0;
       padding: 20px 16px;
@@ -279,7 +284,18 @@
     }
 
     .div_logo_group{
-      display: block;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .circle_up{
+      margin-bottom: 10px;
+      margin-top: 5px;
+    }
+
+    .circle_down{
+      margin-bottom: 10px;
+      margin-top: 5px;
     }
 
   }
@@ -292,6 +308,20 @@
   }
   
   @media (min-width: 768px) and (max-width: 992px){
+
+    .div_logo_group{
+      flex-wrap: wrap;
+    }
+
+    .circle_up{
+      margin-bottom: 10px;
+      margin-top: 5px;
+    }
+
+    .circle_down{
+      margin-bottom: 10px;
+      margin-top: 5px;
+    }
 
     .only_large{
       display: none;
