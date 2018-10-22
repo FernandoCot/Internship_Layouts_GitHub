@@ -94,6 +94,10 @@
       font-size: 2rem !important;
       text-align: center !important;
     }
+
+    .select_form_star_body{
+      width: 40%;
+    }
   
     .txt-welcome{
       font-size: 1.20rem;
@@ -136,6 +140,10 @@
   
     .Section_Boxes{
       padding: 40px 0 10px 0;
+    }
+
+    .box_selects_star_body{
+      margin-top: 15px;
     }
 
     .div_profile_left{
@@ -276,6 +284,16 @@
 
     .input_repo_body{
       width: 100%;
+    }
+
+    .div_input_stars{
+      padding-right: 0;
+    }
+
+    .input_star_body{
+      width: 100%;
+      text-align: center;
+      margin: auto;
     }
 
     .form_repo_body{
