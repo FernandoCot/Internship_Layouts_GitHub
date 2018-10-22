@@ -136,6 +136,10 @@
   color: #24292e;
 }
 
+.only_large{
+  display: inline-block;
+}
+
 .div_component_graphic{
   padding: 5px 0 0;
   text-align: center;

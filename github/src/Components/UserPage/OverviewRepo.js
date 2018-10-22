@@ -57,7 +57,7 @@ class OverviewRepo extends React.Component{
                         </div>
                     ))}
                 </div>
-                <div className="no_mobile">
+                <div className="only_large">
                     <h2 className="tit_contributions mt-4">Contributions in the last year</h2>
                     <div className="div_contributions_gray_border">
                         <div className="div_component_graphic">

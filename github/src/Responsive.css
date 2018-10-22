@@ -3,6 +3,10 @@
 
 @media (max-width: 767px){
 
+    .only_large{
+      display: none;
+    }
+
     .no_mobile{
       display: none !important;
     }
@@ -284,6 +288,10 @@
   }
   
   @media (min-width: 768px) and (max-width: 992px){
+
+    .only_large{
+      display: none;
+    }
 
     .form_search{
       margin-left: 8px 0;
