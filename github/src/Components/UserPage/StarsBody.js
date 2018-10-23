@@ -35,7 +35,7 @@ class StarsBody extends React.Component{
                             <select className="select_form_star_body">
                                 <option>Language: All language</option>
                                 {Stars.map(json => (
-                                <option>{json.language}</option>
+                                <option key={json.id}>{json.language}</option>
                                 ))}
                             </select>
                             <select className="select_form_star_body">
@@ -48,7 +48,7 @@ class StarsBody extends React.Component{
                 </div>
                 <div>
                     {Stars.map(json => (
-                        <div className="div_each_repo_body">
+                        <div className="div_each_repo_body" key={json.id}>
                             <div>
                                 <h3>
                                     <a href={json.html_url} className="tit_repo_body">{json.name}</a>
@@ -66,7 +66,7 @@ class StarsBody extends React.Component{
                                 </span>
                                 <span className="mr-3">
                                     <span className="repo_star">
-                                        <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+                                        <svg aria-label="star" className="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fillRule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
                                     </span>
                                     <span className="repo_body_stars">
                                         {json.stargazers_count}

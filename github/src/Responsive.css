@@ -327,6 +327,14 @@
   
   @media (min-width: 768px) and (max-width: 992px){
 
+    .box_selects_star_body{
+      margin-top: 15px;
+    }
+
+    .div_input_stars{
+      padding-right: 0;
+    }
+
     .div_logo_group{
       flex-wrap: wrap;
     }
