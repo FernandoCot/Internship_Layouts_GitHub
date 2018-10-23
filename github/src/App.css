@@ -729,6 +729,7 @@
 .div_boxes_robot{
   border: solid 1px transparent;
   padding: 24px;
+  display: flex;
 }
 
 .div_boxes_robot:hover{

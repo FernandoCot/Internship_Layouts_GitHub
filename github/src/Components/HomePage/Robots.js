@@ -5,12 +5,12 @@ class Robots extends React.Component{
         return(
             <section className="Section_Robots">
                 <div className="flex_robots">
-                    <div className="col-lg-7 col-md-7 col-12">
+                    <div className="col-lg-7 col-md-12 col-12">
                         <img className="Img_Robot" src="https://assets-cdn.github.com/images/modules/site/home-illo-team.svg" alt="Robot_Receiving_Data"></img>
                     </div>
-                    <div className="col-lg-5 col-md-5 col-12">
+                    <div className="col-lg-5 col-12 class_robot_blocks">
                         <a href="https://github.com/features/code-review" className="link_robots">
-                            <div className="container div_flex div_boxes_robot">
+                            <div className="container div_boxes_robot">
                                 <div className="col-lg-10 col-md-10 col-12 pad0">
                                     <h3 className="tit_robots">Write better code</h3>
                                     <p className="txt_robots">

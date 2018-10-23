@@ -58,7 +58,7 @@ class Header extends React.Component{
                                 <Link to="/" className="nav-link">Pricing</Link>
                             </li>
                         </ul>
-                        <form className="form_search" method="get">
+                        <form className="form_search" method="post">
                             <label className="m-auto label_search" id="label_search">
                                 <input className="navbar_search" id="navbar_search" value={this.state.search_box} onChange={this.setState.search_box} onFocus={this.search_click_focus} onBlur={this.search_click_no_focus} placeholder="Search GitHub"></input>
                                 <img src={Hint} alt="Hint_Icon" id="img_search"></img>

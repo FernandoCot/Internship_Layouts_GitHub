@@ -130,6 +130,10 @@
       padding: 0 !important;
     }
 
+    .div_boxes_robot{
+      display: block;
+    }
+
     .Section_Integrations{
       padding: 45px 0;
     }
@@ -316,6 +320,11 @@
       margin-top: 5px;
     }
 
+    .Img_Robot{
+      height: 300px;
+      width: auto;
+    }
+
   }
 
   @media (max-width: 450px){
@@ -326,6 +335,15 @@
   }
   
   @media (min-width: 768px) and (max-width: 992px){
+
+    .Img_Robot{
+      height: 300px;
+      width: auto;
+    }
+
+    .class_robot_blocks{
+      margin: auto;
+    }
 
     .box_selects_star_body{
       margin-top: 15px;
@@ -462,10 +480,12 @@
 
     .div_boxes_robot{
       margin-top: 8px;
+      display: flex;
+      align-items: center;
     }
 
     .flex_robots{
-      display: flex;
+      display: block;
     }
 
     .div_flex_user_label_repo{
